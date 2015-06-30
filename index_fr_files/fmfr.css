@@ -1,0 +1,98 @@
+body {
+ background-color:#dfdfdf;
+}
+
+.bgorange {
+background-color:#ff7f00;
+}
+
+.cwhite {
+color:white;
+}
+
+.cwhite:hover {
+color:white;
+}
+
+.navbar a {
+color:#ff7f00;
+}
+
+.active {
+background-color:gainsboro;
+}
+
+.blocblog {
+background-color:pink;
+
+}
+
+.blocedito {
+background-color:yellow;
+
+}
+
+.btn-block {
+background-color:#ff7f00;
+border-color:#ff7f00;
+}
+
+.btn-block:hover {
+background-color:dimgrey;
+border-color:dimgrey;
+}
+
+.bpdf {
+background-color:orangered;
+border-color:orangered;
+}
+
+.bepub {
+background-color:forestgreen;
+border-color:forestgreen;
+}
+
+.bprint {
+background-color:aliceblue;
+border-color:darkgrey;
+color:black;
+}
+
+.bachat {
+background-color:#31B0D5;
+border-color:#31B0D5;
+color:white;
+}
+
+.blire {
+background-color:#ff7f00;
+border-color:#ff7f00;
+color:white;
+}
+
+.blire:hover, .bachat:hover, .bprint:hover {
+background-color:dimgrey;
+border-color:dimgrey;
+color:white;
+}
+
+.espaceup {
+padding-top:25px;
+}
+
+.navbar {
+margin-bottom:0px;
+background-color:white;
+}
+
+.thumbnail {
+border-radius:3px;
+border: thin solid #F1F1F1;
+box-shadow: 2px 2px 0px rgba(95, 95, 95, 0.1);
+}
+
+footer {
+border-top: thick solid #DDD;
+color: #6A6A6A;
+background-color:#f0f0f0;
+}
