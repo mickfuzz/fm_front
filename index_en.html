@@ -10,15 +10,23 @@
   <meta name="author" content="FLOSS Manuals English">
   <link xmlns:xh="http://www.w3.org/1999/xhtml/vocab#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rel="xh:icon icon" href="http://yemanjalisa.fr/itpro/fmfr/img/favicon.ico">
 
+  <script>
+   $(document).ready(function() {
+    $('.dropdown-toggle').dropdown()
+   });
+  </script>
+
   <title>Floss Manuals English Bookshop</title>
 
   <!-- Bootstrap core CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <!-- Font awesome CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- Custom -->
-  <link xmlns:xh="http://www.w3.org/1999/xhtml/vocab#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="index_fr_files/fmfr.css" rel="xh:stylesheet stylesheet">
+  <link  href="index_fr_files/fmfr.css" rel="xh:stylesheet stylesheet">
+  <link  href="index_fr_files/fmen.css" rel="xh:stylesheet stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -26,13 +34,13 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  </style>
  </head>
 
  <body>
   <!-- Navigation -->
-  <nav class="navbar navbar navbar-static-top">
+  <nav class="navbar navbar-default navbar-static-top">
    <div class="container">
+
     <div class="navbar-header">
      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
       <span class="sr-only">Toggle navigation</span>
@@ -42,6 +50,7 @@
      </button>
      <a class="navbar-brand" href="#">Floss Manuals English</a>
     </div>
+
     <div id="navbar" class="collapse navbar-collapse">
 
      <ul class="nav navbar-nav">
@@ -64,7 +73,7 @@
       <div class="form-group">
        <input class="form-control" placeholder="Keywords" type="text">
       </div>
-      <button type="submit" class="btn btn-default cwhite">
+      <button type="submit" class="btn btn-default">
        Search
       </button>
      </form>
@@ -178,9 +187,10 @@
          la programmation de circuits électroniques pour intéragir avec le
          milieu environnant.
         </p>
+
         <div class="btn-group" role="group" aria-label="...">
          <button type="button" class="btn btn-default blire">
-          <span class="fa fa-book"> Lire Arduino</span>
+          <span class="fa fa-book"> Read</span>
          </button>
          <div class="btn-group" role="group">
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -232,7 +242,7 @@
         </p>
         <div class="btn-group" role="group" aria-label="...">
          <button type="button" class="btn btn-default blire">
-          <span class="fa fa-book"> Lire Processing</span>
+          <span class="fa fa-book"> Read</span>
          </button>
          <div class="btn-group" role="group">
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -280,7 +290,7 @@
         </p>
         <div class="btn-group" role="group" aria-label="...">
          <button type="button" class="btn btn-default blire">
-          <span class="fa fa-book"> Lire Scribus</span>
+          <span class="fa fa-book"> Read</span>
          </button>
          <div class="btn-group" role="group">
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -330,7 +340,7 @@
         </p>
         <div class="btn-group" role="group" aria-label="...">
          <button type="button" class="btn btn-default blire">
-          <span class="fa fa-book"> Lire Blender pour le jeu</span>
+          <span class="fa fa-book"> Read</span>
          </button>
          <div class="btn-group" role="group">
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -386,7 +396,7 @@
         </p>
         <div class="btn-group" role="group" aria-label="...">
          <button type="button" class="btn btn-default blire">
-          <span class="fa fa-book"> Lire Blender pour l'impression 3D</span>
+          <span class="fa fa-book"> Read</span>
          </button>
          <div class="btn-group" role="group">
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -437,7 +447,7 @@
         </p>
         <div class="btn-group" role="group" aria-label="...">
          <button type="button" class="btn btn-default blire">
-          <span class="fa fa-book"> Lire Thunderbird</span>
+          <span class="fa fa-book"> Read</span>
          </button>
          <div class="btn-group" role="group">
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -484,7 +494,7 @@
         </p>
         <div class="btn-group" role="group" aria-label="...">
          <button type="button" class="btn btn-default blire">
-          <span class="fa fa-book"> Lire Puredata</span>
+          <span class="fa fa-book"> Read</span>
          </button>
          <div class="btn-group" role="group">
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -530,7 +540,7 @@
         </p>
         <div class="btn-group" role="group" aria-label="...">
          <button type="button" class="btn btn-default blire">
-          <span class="fa fa-book"> Lire Initiation à Inkscape</span>
+          <span class="fa fa-book"> Read</span>
          </button>
          <div class="btn-group" role="group">
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -585,7 +595,7 @@
         </p>
         <div class="btn-group" role="group" aria-label="...">
          <button type="button" class="btn btn-default blire">
-          <span class="fa fa-book"> Lire RepRap</span>
+          <span class="fa fa-book"> Read</span>
          </button>
          <div class="btn-group" role="group">
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -631,15 +641,11 @@
          Ce livre veut être un guide pour celui qui ne trouve pas de
          fonte qui corresponde exactement à ses aspirations d'expression
          graphique, afin qu'il puisse aisément en adapter ou redessiner une ou
-         plusieurs selon ses besoins. Il donne aussi aux locuteurs des langues
-         qui ne disposent pas encore de fontes appropriées les pistes pour en
-         trouver, en adapter ou en créer dans le but de faciliter l'usage par
-         voie électronique et ainsi favoriser la préservation de la richesse
-         culturelle de ces langues.
+         plusieurs selon ses besoins. 
         </p>
         <div class="btn-group" role="group" aria-label="...">
          <button type="button" class="btn btn-default blire">
-          <span class="fa fa-book"> Lire Fontes libres</span>
+          <span class="fa fa-book"> Read</span>
          </button>
          <div class="btn-group" role="group">
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
