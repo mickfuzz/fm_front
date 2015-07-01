@@ -1,0 +1,297 @@
+Please feel free to revise the straplines and keywords, but please keep them SHORT
+
+
+OPEN VIDEO or just VIDEO (INCLUDES VIDEO TOOLS AND OPEN VIDEO) [What's open video?]
+A Look at Open Video: Introduction OV concepts and tools - video, video tools
+* Plumi: Video Distriibution CMS - distribution, plone, open video, video
+* Guide to Independent Video Hosting:  DIY video hosting and players - video hosting, media players, video, distribution
+* Open Video Workbook: Course modules with tools and learning activities - workbook, video,design 
+Miro: Video podcast and broswer - pcf, vodcast, mediarss, video
+VLC: Flexible multimedia player - videolan, video, ogg
+* Handbrake: Covert DVDs and video files  - dvdripper, transcoding, k9copy
+FFmpeg2Theora: Command line utility for converting video commandline, transcoding
+Avidemux: Video encoder and simple video editor - dvdripper, video editor
+* Kdenlive: A video editor  - video editor
+Ogg Theora Cook Book: Tips on Open Video with Ogg - open video, ogg
+Jubler: Crossplatform Subtitling tool - subtitles, audio transcribing
+Kino: Video editing in Linux - video editor, video capture, video
+Video Subtitling: An overview of subtitling tools and processes video, subtitles
+
+
+LIBRE GRAPHICS or just GRAPHICS (INCLUDES GRAPHICS & BLENDER) [Why libre graphics, and not just graphics?]
+Gimp: Raster graphics editor used for image creation and photo retouching & editing - photo editor, web image compression
+* Font Forge: How to create new typefaces using FontForge - fonts, typography, typeface design, lettering, logos, logotypes, glyphs
+Alchemy: Simple but fast vector image sketch creator svg, sketch, editor, brainstorm
+* Digital Foundations: A mash-up of the Bauhaus Basic Course with examples in open source software. A great resource for designers at all levels, including basic introductions to graphic design, illustration, type, balance, colour, sharing, copyleft, coding.
+* Inkscape: Vector graphics editor. Its goal is to implement full support for the Scalable Vector Graphics 1.1 standard. - svg, vector, illustration, drawing
+Scribus: Desktop publishing application dtp, multi-page layout, typography
+Blender: 3D animation tool animation, wireframes, design
+
+AUDIO - (INCLUDE STREAMING & SYNTHESIS)
+* Ardour 2: A Digital Audio Workstation for complex productions. design, audio, non-linear editing
+Audio Production : How to design, execute and publish an audio programme. audio, design
+* Audacity: Audio recording & editing software. audio, linear editing
+* Audacity Workbook: learn the basics of audio editing with Audacity. audio, linear editing
+MuSE: A graphical interface for streaming servers. streaming, audio
+* Icecast: A streaming server. audio, video, streaming
+* Csound: A textual programming language and framework for audio synthesis. code, audio, design, synthesis
+m3w (this only worked on windows and the links are dead - I suggest dropping it) [ok]
+
+* PureData: A graphical programming environment for audio and video synthesis. code, synthesis, audio, video, design
+
+
+CAMPAIGN
+* Tech Tools for Activism:  A guide on how to use technology securely and effectively for campaigning and activism. campaign,  internet, activism, security [this might fit better under security & privacy?]
+Freedom Fone 
+CiviCRM: Customer Relationship Management software designed for civil society groups.  web internet, website, CRM
+CiviCRM Developer Guide: A guide on development using the CiviCRM software. web internet, website, CRM     
+OpenEvSys  - database tool for Human Rights documentation human rights, 
+* ObscuraCam: An Andriod photo & video app with many anonymising features. photos, video, security, smartphone, Android, humanitarian, documenting
+* K-9 Mail: Email client for Android devices. email, internet, smartphone, Android
+Sahana Eden -  Disaster Management tool web, campaign
+* Wordpress: Content Management System to create and manage websites - blogging, website, CMS, plugins, widgets, themes, MySQL, PHP, mobile
+* Open Translation Tools - overview of translation tools and process translation, subtitles
+
+
+THE NET
+Chromium: Web browser. web, internet, browser
+* BlueGriffon: An HTML editor for making web sites.  web, internet, website, HTML editing
+NvU: An HTML editor for making web sites. web, internet, website, HTML editing
+* Firefox: Web browser. web, internet, browser
+* Collaborative Futures - the theory and practice of collaboration collaboration, social media, 
+* Thunderbird: Email client [I'd move this to Internet, and perhaps change topic to 'Web & Email']. internet, email, web
+
+SECURITY & PRIVACY
+* Hide your Data Workbook -  A quick guide to using Truecrypt security, 
+* An Open Web - Overview of Open Web concepts. Join the fight. web, internet, open web
+* Encrypt your Email with GPG:  How to prevent spying eyes from reading your emails. email, internet, security
+* Basic Internet Security - intro and hand on info web, internet, security    
+* Firefox & Privacy in a Nutshell - short intro to the browser and security 
+web, internet, browser, security
+* How to Bypass Internet Censorship: Overview of circumventing blocks. web, internet, security
+
+OFFICE
+LibreOffice - Office suite with word processor, spreadsheet, database, presentations  office, spreadsheets, text formatting
+* ownCloud - Web-based file storing and sharing (Dropbox replacement) filesharing, dropbox, collaboration
+* Etherpad:  A text editor that can be edited by many people at the same time collaboration, pad
+* Booktype: collaboratively edit & publish books in  electronic and print formats collaboration, publishing, epub
+Mifos Android Client - Android client for microfinance tool microfinance, admin   
+Linphone - introduction to Linphone VOIP system voip, sip
+Mifos - tool for microfinance institutions microfinance, admin   
+
+
+AV & PERFORMANCE [I think calling this 'AV' will cause confusion with other sections, esp. the video and audio sections ] [I agree] [what about calling it ARTS so that it can include other arts-oriented software, not only performance?]
+* UpStage v2.4.2  User Manual -  web-based platform for live collaborative performance by remote playersperformance, web
+UpStage v2.1 User Manual -  web-based platform for live collaborative performance by remote players performance, web
+upstage-video-hack-annex - tips for using video for Upstage video, performance, web
+[these three UpStage manuals are all out of date & should not be accessible from the main page anymore as it's confusing; we have a v3 manual but i had to remove it from FM last year after problems, & haven't yet had time to put it back again ... I will eventually ... ]
+* ChucK: real-time audio synthesis and graphics/multimedia  performance, AV
+* Fluxus: environment which allows you to quickly make live animation and audio  performance, AV
+
+
+OTHER 
+* OpenStreetMap: Street maps that can be edited and styled [not sure why this is in the office section, or in the graphics section - suspect it belongs to 'other'] . - maps, location, tiles
+* Introduction to the Command Line - using computer terminals linux, terminal, commandline
+FSLint - utility to find and clean unwanted files - linux, OS tool   
+KDE Dev Guide - guide to be a productive KDE developer   OS tool, linux     
+* Evergreen in Action - integrated library system for inventory and patron management 
+* Learning with Etoys Imagine, Invent, Insprire -  tile based programming environment for children etoys, education, kids, design
+* Bookshare Reader - reading application for the Bookshare.org print disability project bookshare, accessibility
+Introduction to Mallard -  markup language used to write topic-oriented documentation documentation, markup
+Contributors' Guide to BRL-CAD - hybrid Computer Aided Design modeling system CAD, modelling
+OpenMRS Implementers' Guide -  electronic medical record system
+OpenMRS Developers' Guide - how to develop for this an electronic medical record system medical, humanitarian, documenting
+GSOC Mentors Guide - guide for GSOC mentors -  gsoc, admin,
+GSOC Student Guide - guide for GSOC students   gsoc 
+Google Summer of Code - Melange GCI - software that administers the Google Code-in contest code in, google
+* Melange - Melange is the software that administers the Google Summer of Code gsoc, admin,
+
+OLPC / SUGAR  OS
+* Sugar - visual, activity based operating system learning, os, activities
+Write Activity - learning activity for OLPC / Sugar olpc, sugar OS, OER
+Record Activity learning activity for OLPC / Sugar olpc, sugar OS, OER
+* Turtle Activity - learning activity for OLPC / Sugar olpc, sugar OS, OER
+Chat Activity - learning activity for OLPC / Sugar olpc, sugar OS, OER
+Terminal Activity - learning activity for OLPC / Sugar olpc, sugar OS, OER
+* XO - manual for the OLPC laptop olpc, sugar OS, xo
+Class Acts - learning activity for OLPC / Sugar olpc, sugar OS, OER
+Make your own sugar activities-  creating activities for OLPC / Sugar. design, olpc, sugar OS
+Memorize Activity    - learning activity for OLPC / Sugar olpc, sugar OS, OER
+E-Book Enlightenment - reflections on writing ebooks for  OPLC ebook, epub, olpc
+
+NEW MANUAL SUGGESTIONS
+
+PhpList
+PyVideo
+WebGL 
+SuperCollider    (I can't find that one, is it an unpublished draft?) not written yet!
+
+
+NEW SECTION SUGGESTIONS
+
+Linux Desktop / PC
+Mobile Phone Apps and Tools
+
+
+
+** EXISING CATEGORIES AS OF JULY 27TH 2014
+
+NEW
+Google Summer of Code - Melange GCI 
+Melange 
+Evergreen in Action 
+Learning with Etoys Imagine, Invent, Insprire 
+Airtime 2.3  
+Mifos Android Client 
+Freedom Fone 
+Bookshare Reader 
+newscoop-4-journalists-de-4-0 
+Introduction to Mallard 
+Contributors' Guide to BRL-CAD 
+Firefox in a Nutshell 
+upstage-video-hack-annex 
+booktype-en-1-6 
+Scribus 
+Live Blog 1.0 for Journalists     
+
+SOURCEFABRIC
+Newscoop 4 for Journalists and Editors
+Airtime 2.3 for Broadcasters
+Newscoop 4.1 for Journalists and Editors 
+GEN Live Desk 
+Newscoop 4.1 Cookbook 
+Booktype for Authors and Publishers
+Airtime 2.1 para estaciones de radio     
+
+OPEN VIDEO TOOLS
+A Look at Open Video Plumi
+Guide to Independent Video Hosting 
+Open Video Workbook 
+Miro 
+VLC 
+Handbrake
+FFmpeg2Theora 
+Avidemux
+
+GRAPHICS
+Gimp (New) 
+Font Forge 
+Alchemy
+Digital Foundations
+Inkscape
+
+VIDEO TOOLS
+Guide to Open Source Video Editing using Kdenlive
+Ogg Theora Cook Book
+Jubler 
+Kino
+Video Subtitling
+
+ONLINE COLLABORATION
+ownCloud 
+Etherpad 
+Collaborative Futures
+
+OLPC / SUGAR
+Sugar
+Write Activity Record Activity 
+Turtle Activity 
+Chat Activity 
+Terminal Activity 
+XO
+Class Acts 
+Make your own sugar activities
+E-Book Enlightenment 
+Memorize Activity     
+
+ANDROID
+ObscuraCam
+K-9 Mai
+‎
+OPENMRS
+OpenMRS Implementers' Guide 
+OpenMRS Developers' Guide     
+
+AUDIO EDITING
+Ardour
+Audio Production 
+Audacity
+    
+SIGNAL PROCESSING
+Csound 
+Pure Data 
+ChucK 
+Fluxus
+
+GSOC
+Mentors Guide Student Guide     
+
+CRM
+CiviCRM 
+CiviCRM Developer Guide     
+
+HTML
+BlueGriffon 
+NvU
+    
+PERFORMANCE
+UpStage v2.4.2 
+User Manual 
+UpStage v2.1 User Manual     
+
+DISASTER MANAGEMENT
+Sahana Eden
+
+BROWSERS
+Chromium     
+
+KDE
+KDE Dev Guide     
+
+MAPPING
+OpenStreetMap
+
+WORKBOOKS
+Audacity Workbook     
+
+STREAMING
+MuSE
+Icecast
+m3w     
+
+INTERNET
+How to Bypass Internet Censorship
+
+MOZILLA
+Thunderbird
+Firefox
+
+HUMAN RIGHTS
+OpenEvSys     
+
+VOIP
+Linphone
+
+3D
+Blender
+
+FILE SYSTEM TOOLS
+FSLint     
+
+COMMAND LINE
+Introduction to the Command Line
+
+MICRO FINANCING
+Mifos     
+
+BLOG
+Wordpress
+
+TRANSLATION
+Open Translation Tools
+
+BOOK PRODUCTION
+Booki User Guide     
+ 
+
+
