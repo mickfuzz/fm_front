@@ -24,8 +24,8 @@ Gimp: Raster graphics editor used for image creation and photo retouching & edit
 Alchemy: Simple but fast vector image sketch creator svg, sketch, editor, brainstorm
 * Digital Foundations: A mash-up of the Bauhaus Basic Course with examples in open source software. A great resource for designers at all levels, including basic introductions to graphic design, illustration, type, balance, colour, sharing, copyleft, coding.
 * Inkscape: Vector graphics editor. Its goal is to implement full support for the Scalable Vector Graphics 1.1 standard. - svg, vector, illustration, drawing
-Scribus: Desktop publishing application dtp, multi-page layout, typography
-Blender: 3D animation tool animation, wireframes, design
+* Scribus: Desktop publishing application dtp, multi-page layout, typography
+* Blender: 3D animation tool animation, wireframes, design
 
 AUDIO - (INCLUDE STREAMING & SYNTHESIS)
 * Ardour 2: A Digital Audio Workstation for complex productions. design, audio, non-linear editing

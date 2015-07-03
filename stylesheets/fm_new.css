@@ -1,0 +1,263 @@
+
+
+.hrfront hr{
+ margin: 8px 0;
+}
+.highlighted {
+ background-color: yellow;
+}
+
+#search_cont .popover {
+  width:700px;
+  max-width: none
+
+}
+
+/* 
+ * 
+ * 
+ * #hint_id_inLanguage, #hint_id_learningResourceType, #hint_id_educationalAlignmentURL, #hint_id_learningResourceType, 
+{
+ display: none;
+}
+ * 
+ http://stackoverflow.com/questions/16489307/how-to-remove-gutter-space-for-a-specific-div-only-bootstrap 
+AND
+http://codepen.io/m2-3d/pen/EHrfp 
+ 
+ * */
+
+
+
+.row.no-gutter { margin-left:0;margin-right:0; }
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+
+
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+ 
+
+
+}
+
+/* TOMMY STARTS HERE:
+============================================================================*/
+
+/* GENERAL
+============================================================================*/
+
+h1,.h1 {
+ font-size: 30px;
+ font-weight: bold;
+ margin: 10px 30px 10px 30px;
+}
+h2,.h2 {
+    font-size:23px;
+    color: #fff;
+    margin: 0;
+    font-weight: normal;
+}
+h3,.h3 {
+    font-size:23px;
+    color: #5e5956;
+    margin: 0;
+    font-weight: normal;
+    }
+h4,.h4 {
+ font-size:18px;
+    color: #fff;
+    margin: 0;
+    font-weight: normal;
+    }
+a, a:active, a:focus {
+ color: #8B8786;
+ text-decoration: none;
+ outline:none;
+ }
+a:hover {
+ color: #fff;
+ text-decoration: none;
+ }
+.thumbnail {
+ padding: 0;
+ border: 0 none;
+    box-shadow: none;
+ background-color: transparent;
+ }
+.thumbnail-list {
+ display:block;
+    padding: 0;
+    margin-bottom:20px;
+    line-height:1.42857143;
+    background-color:#33302b;
+    border: 0;
+    border-radius: 0;
+ box-shadow: none;
+    -webkit-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out
+}
+.panel-search {
+ float: left;
+ background-color:#56cd26;
+ }
+.background {
+ background-color: #33302b;
+ margin: 2px 0px 0px 0px;
+ }
+/* NAVIGATION
+============================================================================*/
+.navbar-inverse .navbar-text {
+    color:#e7e9e8;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:#e7e9e8;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color:#e7e9e8;
+}
+.navbar-inverse .navbar-link {
+    color:#e7e9e8;
+}
+.navbar-inverse .btn-link {
+    color:#e7e9e8;
+}
+.navbar-form {
+  margin-top: 0px;
+  }
+
+.navbar-inverse {
+ background-image: none;
+    background-color: #fff;
+    border-color: none;
+}
+.nav-container {
+ background: #5e5956;
+ }
+/* HEADER
+============================================================================*/
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.padding {
+ padding : 3px 30px 3px 30px;
+ }
+
+.panel-body {
+ background-color:#e7e9e8;
+ padding: 10px 20px;
+ }
+.form-control {
+ display: inline-block;
+ width: 90%;
+ }
+.search-bar {
+ padding: 5px;
+ }
+/* BODY
+============================================================================*/
+.page-header {
+ background-color:#5e5956;
+ margin: 4px 0px 2px 0px;
+ padding: 5px;
+ }
+.leftpadding {
+ padding: 2px 2px 2px 15px;
+ }
+.rightpadding {
+ padding: 2px 15px 2px 2px;
+ }
+.midpadding {
+ padding: 2px 2px 2px 2px;
+ }
+.descpadding {
+ padding: 2px 2px 2px 0px;
+ }
+.panel, .panel-info {
+ border: none;
+ background-color: #e7e9e8;
+ box-shadow: none;
+ padding: 0;
+ margin-bottom: 0;
+ border-radius: 0;
+ }
+.panel-info > .panel-heading {
+ background-image: none;
+ background-color: #33302b;
+ color: #33302b;
+ border-color: #33302b;
+ border-radius: 0;
+ font: white;
+ }
+.panel-success > .panel-heading {
+ background-image: none;
+ background-color: #56cd26;
+ border-radius: 0;
+ color: #33302b;
+}
+.panel-warning > .panel-heading {
+ background-image: none;
+ background-color: #f6ab08;
+ border-radius: 0;
+ color: #33302b;
+}
+.panel-danger > .panel-heading {
+ background-image: none;
+ background-color: #dd0326;
+ border-radius: 0;
+ color: #33302b;
+}
+.panel-collapse > .collapse {
+ border-radius: 0;
+ }
+.btn, .btn-info, .btn-warning, .btn-default, .btn-primary, .btn-success, .btn-info, .btn-danger {
+ background-image: none;
+ color: #33302b;
+ margin: 2px;
+ border:none;
+ border-radius: 0; 
+ }
+.btn-success {
+background-color: #56cd26;
+}
+.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open>.dropdown-toggle.btn-success {
+    color:#fff;
+    background-color:#56cd26;
+}
+.btn-info {
+background-color: #0b99ac;
+}
+.btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open>.dropdown-toggle.btn-info {
+    color:#fff;
+    background-color:#0b99ac;
+}
+
+.btn-warning {
+background-color: #f6ab08;
+}
+.btn-warning:hover,.btn-warning:focus,.btn-warning:active,.btn-warning.active,.open>.dropdown-toggle.btn-warning {
+    color:#fff;
+    background-color:#fff;
+}
+.btn-danger {
+background-color: #dd0326;
+}
+.btn-danger:hover,.btn-danger:focus,.btn-danger:active,.btn-danger.active,.open>.dropdown-toggle.btn-danger {
+    color:#fff;
+    background-color:#f6ab08;
+}
+
+/* FOOTER
+============================================================================*/
+
+
+
+
