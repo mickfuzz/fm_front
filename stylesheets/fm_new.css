@@ -1,5 +1,3 @@
-
-
 .hrfront hr{
  margin: 8px 0;
 }
@@ -10,7 +8,6 @@
 #search_cont .popover {
   width:700px;
   max-width: none
-
 }
 
 /* 
@@ -24,10 +21,10 @@
  http://stackoverflow.com/questions/16489307/how-to-remove-gutter-space-for-a-specific-div-only-bootstrap 
 AND
 http://codepen.io/m2-3d/pen/EHrfp 
- 
+
+test
+
  * */
-
-
 
 .row.no-gutter { margin-left:0;margin-right:0; }
 
