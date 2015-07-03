@@ -1,14 +1,3 @@
-.hrfront hr{
- margin: 8px 0;
-}
-.highlighted {
- background-color: yellow;
-}
-
-#search_cont .popover {
-  width:700px;
-  max-width: none
-}
 
 /* 
  * 
@@ -25,6 +14,19 @@ http://codepen.io/m2-3d/pen/EHrfp
 test
 
  * */
+
+.hrfront hr{
+ margin: 8px 0;
+}
+.highlighted {
+ background-color: yellow;
+}
+
+#search_cont .popover {
+  width:700px;
+  max-width: none
+}
+
 
 .row.no-gutter { margin-left:0;margin-right:0; }
 
@@ -192,7 +194,7 @@ a:hover {
  color: #33302b;
  border-color: #33302b;
  border-radius: 0;
- font: white;
+ font: white; 
  }
 .panel-success > .panel-heading {
  background-image: none;
