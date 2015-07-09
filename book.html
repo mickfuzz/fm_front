@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://www.flossmanualsfr.net/creer-un-epub/ -->
+<html lang="fr" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Créer un epub | Floss Manuals francophone - Lire</title>
+    
+    <link rel="icon" href="http://www.flossmanualsfr.net/creer-un-epub/_templates/fm_resources/fl2.ico" type="image/x-icon">
+    <link type="text/css" href="./book_files/prettify.css" rel="Stylesheet">
+    <script type="application/javascript" src="./book_files/prettify.js"></script>
+    <script type="application/javascript" src="./book_files/jquery-1.6.1.min.js"></script>
+    <script type="application/javascript" src="./book_files/fm_book.js"></script>
+    <link rel="stylesheet" href="./book_files/fm_book.css" type="text/css">
+    <link rel="stylesheet" href="./book_files/fmfr_book.css" type="text/css">
+  </head>
+
+  <body onload="prettyPrint();">
+	  <header>
+		<a href="http://www.flossmanualsfr.net/" id="home"><img src="./book_files/accueil-flossmanuals-booksprint.png" onclick="javascript:window.location=&#39;http://fr.flossmanuals.net&#39;" alt="Accueil Floss Manuals francophone"></a>
+    
+		<h1 id="index-book-title">
+			Créer un epub
+		</h1>
+
+		<ul id="pdf">
+			<li><a href="http://www.flossmanualsfr.net/_booki/creer-un-epub/creer-un-epub.epub" title="Télécharger l&#39;export automatisé au format epub de Créer un epub"><img src="./book_files/epub.png" alt="Export automatisé au format epub."></a></li>
+			<li><a href="http://www.flossmanualsfr.net/_booki/creer-un-epub/creer-un-epub.pdf" title="Télécharger l&#39;export au format PDF de Créer un epub"><img src="./book_files/pdf.png" alt="Exporter automatisé au format PDF."></a></li>
+			<li><a href="http://www.flossmanualsfr.net/creer-un-epub/_all" title="Imprimer Créer un epub"><img src="./book_files/print.png" alt="Imprimer le manuel dans sa version actuelle"></a></li>
+			<li><a href="http://boutique.flossmanualsfr.net/" title="Commander le livre imprimé du manuel Créer un epub "><img src="./book_files/buy_fm_books.png" alt="Acheter une version imprimée du manuel, contenu vérifié et mis en page selon nos disponibilités et demandes. Différents formats selon manuels."></a></li>	
+		</ul>
+
+    </header>
+
+    <main id="main">
+      <nav class="navbar">
+        <div class="arrow top left">
+          <a href="http://www.flossmanualsfr.net/creer-un-epub/#" style="visibility: hidden;"><img src="./book_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow top right">
+          <a href="http://www.flossmanualsfr.net/creer-un-epub/ch002_calibre" title="Convertir son fonds à partir de fichiers PDF"><img src="./book_files/next-arrow.png" alt=""></a>
+        </div>
+      </nav>
+
+      <article class="fm-content">
+        <div id="main-content">
+  <h1>Introduction</h1>
+
+  <p>L'EPUB (acronyme de « electronic publication » ou « publication électronique ») est un format standardisé pour les fichiers de livres numériques. Il s'appuie notamment sur le HTML, le langage de balisage utilisé pour créer des sites web.</p>
+
+  <p>Un livre au format EPUB est composé de plusieurs dossiers et fichiers réunis dans un conteneur qui porte l'extension .epub. Il contient du texte (fichiers HTML), des images (fichiers <em>.jpg</em>, <em>.png</em> ou <em>.svg</em>), des feuilles de style (fichiers CSS) ainsi que des fichiers décrivant la structure du livre et ses métadonnées (l'ensemble des informations – auteur, titre, date de publication, ISBN... – permettant le bon référencement bibliographique de l'ouvrage).</p>
+
+  <p>Pour éviter les confusions, nous écrivons EPUB pour désigner le format et epub quand il s'agit d'un fichier ainsi que pour le format PDF.</p>
+
+  <h2>Qui a créé l'epub&nbsp;?</h2>
+
+  <p>L'EPUB a été développé par l’IDPF (International Digital Publishing Forum), une organisation à but non lucratif dont le but est de favoriser l'accessibilité des publications numériques en promouvant la création de standards ouverts.</p>
+
+  <p>Elle regroupe aujourd’hui plus de 200 acteurs internationaux du logiciel, d'Internet et de l'édition parmi lesquels des distributeurs, des éditeurs, des librairies et des bibliothèques. L'Association nationale des éditeurs de livres au Canada, le SNE (Syndicat national de l'édition) en France, le groupe d'édition Hachette Livre, ou encore la chaîne de librairie américaine Barnes &amp; Noble en font notamment partie.</p>
+
+  <p>L’IDPF commence ses activités en 1999 avec la création de l’OEB (ou Open eBook) permettant aux éditeurs de disposer d’un premier format standardisé dédié à la lecture numérique, accepté par un grand nombre de dispositifs de lecture.</p>
+
+  <p>En 2007, L'EPUB 2 remplace l’OEB et devient officiellement le nouveau format standard pour les fichiers de livres numériques. L'EPUB (comme l’OEB) est un format dynamique qui s'adapte à tous les supports de lecture en ajustant l'affichage à la taille de l'écran.</p>
+
+  <p>La dernière version, L'EPUB 3, a été présentée officiellement en octobre 2011 lors du Salon du livre de Francfort.</p>
+
+  <p>Par rapport à la version précédente, epub 3 permet notamment&nbsp;:</p>
+
+  <ul>
+    <li>d'enrichir votre livre numérique avec des documents multimédias (fichiers audio et vidéo)&nbsp;;</li>
+
+    <li>de mieux intégrer des équations mathématiques grâce au support du format MathML&nbsp;;</li>
+
+    <li>de mieux intégrer les langues n'utilisant pas l'alphabet latin (notamment les langues avec sens de lecture vertical)&nbsp;;</li>
+
+    <li>d'opter pour une mise en page fixe (<em>fixed layout</em>) qui empêche le redimensionnement du contenu et permet donc de conserver la mise en page d'origine. Cette dernière caractéristique facilite notamment la réalisation de livres numériques riches en illustrations.</li>
+  </ul>
+
+  <p>Cette norme revêt une telle importance que plusieurs associations professionnelles d'éditeurs de différents pays ont décidé de devenir membres de l'IDPF afin de prendre une part plus active dans le développement de ce format. C'est le cas notamment du Syndicat national de l'édition (SNE) en France qui a mis en place au sein de son association un groupe de travail consacré aux «&nbsp;Normes et Standards &nbsp;» dans le numérique (<a href="http://www.sne.fr/dossiers-et-enjeux/numerique/normes-et-standards.html">http://www.sne.fr/dossiers-et-enjeux/numerique/normes-et-standards.html</a>).</p>
+
+  <h2>Le livre électronique&nbsp;: EPUB ou PDF&nbsp;?</h2>
+
+  <p>Le PDF est un autre format standard, sur lequel repose encore actuellement la plus grande partie de la production et de la commercialisation de livres.</p>
+
+  <p>L'EPUB et le PDF reposent sur des logiques tout à fait différentes. Le PDF suit une logique visuelle, correspondant à la page papier. Il a initialement été pensé pour échanger des fichiers tout en préservant la mise en forme d'origine et sert aujourd'hui de base à l'impression. L'EPUB est au contraire à l'origine une forme de publication en flux, s'adaptant visuellement et fonctionnellement à son support de lecture : taille de l'écran, capacités d'interaction, etc.</p>
+
+  <p>Cette « fluidité » du format epub a été un frein au passage de nombreux éditeurs à l'édition électronique. Le format est pourtant aujourd'hui largement accepté et recommandé du fait des changements d'outils et d'usages de lecture. À l'instar du HTML utilisé pour les sites web, les contenus d'un livre epub se présentent en un flux recomposable qui s'adapte aux différents écrans, lesquels vont du smartphone aux tablettes en passant par toutes les tailles d'ordinateurs. Cette particularité, qui bouscule pourtant fortement la tradition éditoriale, répond très bien à ces nouveaux usages mobiles.</p>
+
+  <h2>Une nécessaire adaptation de la chaîne de fabrication</h2>
+
+  <p>La chaîne de fabrication traditionnelle d'un livre consiste à importer un fichier bureautique (texte et images) issu d'un logiciel de traitement de texte dans un logiciel de mise en page (Scribus, InDesign, QuarkXpress, PageMaker, Publisher etc.) pour produire un fichier pdf destiné à l'impression. Le fonds des éditeurs est ainsi principalement constitué de fichiers pdf. C'est donc à partir de ceux-ci que sont la plupart du temps produits les fichiers epub.</p>
+
+  <p>Or, si le PDF et l'EPUB n'ont pas du tout la même logique, ils n'ont pas non plus les mêmes soubassements techniques. Le code du fichier epub spécifie la fonction de chaque élément dans le texte (titre, paragraphe, élément d'une liste, citation...) pour leur associer ensuite une façon de s'afficher ou de se comporter. Rien dans un fichier pdf n'indique le rôle que jouent les éléments de contenu, autrement que par leur apparence : on « voit » que tel titre est un titre de chapitre car il est graphiquement distinct des autres. Malheureusement, contrairement à un humain qui sait implicitement distinguer un titre de chapitre du reste du texte par sa simple différence graphique, aucun logiciel ne « voit » cela par lui-même.</p>
+
+  <p>Dans la conversion du pdf vers l'epub, il faut donc redonner à chaque élément du texte sa fonction. Cela peut se faire en associant aux données géométriques de la maquette une structure fonctionnelle. Mais peu de logiciels permettent de le faire de manière satisfaisante et il reste indispensable de procéder à une validation humaine page à page du résultat. Dans la plupart des cas, nous récupérons un texte brut sans aucune distinction. Tout le travail de structuration est alors à refaire.</p>
+
+  <p>Il faut ajouter à cela qu'un pdf peut réserver quelques surprises. Peu importe la manière dont a été géré le contenu tant qu'il apparaît « comme il faut ». Ainsi, un texte visuellement linéaire peut en fait ne pas l'être et apparaître déstructuré lorsqu'on le copie. Des contenus invisibles, camouflés dans un bloc de texte mis en blanc, réapparaîtront au milieu du texte récupéré. Les cas de déstructuration sont nombreux&nbsp;:&nbsp;notes de bas de page réparties sur deux pages, césures de fin de ligne, éléments des cellules d'un tableau éparpillés, etc.</p>
+
+  <p>Quelle que soit la qualité du fichier pdf considéré, et malgré le développement d'outils de récupération automatique de plus en plus performants, le PDF est donc un format peu approprié pour servir de point de départ à un processus d'édition epub. S'il est incontournable lorsqu'il s'agit de traiter le fonds ancien, il est donc recommandé aux éditeurs de mettre en place dès aujourd'hui des processus de fabrication qui permettront à l'avenir de produire les pdf et les epub en parallèle et non plus successivement.</p>
+
+  <p>C'est pourquoi nous verrons ici comment fabriquer un epub à partir d'un pdf mais aussi en partant d'une source texte (OpenOffice, LibreOffice, MS Word...), du logiciel de mise en page ou en rédigeant directement dans un éditeur epub. À vous d'évaluer chacune de ces méthodes et de voir de quelle manière elle s'insère dans votre chaîne de fabrication papier, le cas échéant.</p>
+
+  <h2>Un format ouvert</h2>
+
+  <p>L’epub a la particularité d’être un format libre et ouvert contrairement à d’autres formats, dits propriétaires, qui reprennent une technologie similaire. Citons ainsi le MoBi et son successeur le KF8, formats propriétaires créés ou repris par Amazon.</p>
+
+  <p>Un format ouvert est accessible à tous. Ses normes techniques sont connues et documentées et on peut accéder sans barrière au code du fichier. Cette particularité permet aux créateurs d'epub de modifier et contrôler leurs fichiers comme ils l'entendent et aux informaticiens de développer des applications de lecture et d'édition des livres.</p>
+
+  <p>Cette ouverture technologique a un impact très important pour les éditeurs comme pour les lecteurs. Les éditeurs peuvent maîtriser leur chaîne de fabrication et la qualité de leur production, à long terme. D'autre part cette ouverture permet de construire un écosystème varié de diffusion et de distribution&nbsp;:&nbsp;personne ne détient à lui seul les clefs permettant de gérer, de vendre, de lire, d'annoter les livres qui constituent le fonds propre de chaque éditeur.</p>
+
+  <p>Les lecteurs, de leur côté, ont à leur disposition de nombreux outils de lecture. Différentes applications, libres ou non, gratuites ou payantes, sont disponibles sur le marché pour afficher leurs fichiers, les classer, les administrer.</p>
+
+  <p>Le format propriétaire MoBi ne peut être lu qu'avec des applications dédiées fournies par Amazon qui possède également son propre support de lecture, le Kindle. À l'inverse, l'EPUB est lisible directement (sans conversion ou installation d'applications supplémentaires) sur tous les dispositifs de lecture tels que tablettes, liseuses, smartphones, ordinateurs... à l’exception du Kindle.</p>
+
+  <p>La réalisation d'ouvrages numériques au format EPUB s'inscrit fondamentalement dans un contexte de création et d'usages favorisant la liberté technologique et, en conséquence, la liberté commerciale. En utilisant ce format, l'éditeur comme le lecteur n'est pas contraint de dépendre d'une plateforme unique de vente, d'un seul acteur numérique du secteur ou d'un dispositif de lecture en particulier. C'est sans doute en raison de cette adaptabilité et de cette souplesse que le format EPUB s'impose aujourd'hui comme un standard et est adopté par la plupart des grands fabricants et vendeurs de livres numériques.</p>
+
+  <h2>Présentation du contenu de l'ouvrage</h2>
+
+  <p>Cet ouvrage s'adresse principalement aux éditeurs indépendants et aux professionnels de la mise en page souhaitant s'initier à la création de livres au format EPUB. L'objectif est de les accompagner sur un plan pratique dans la création de ce type de documents numériques à l'aide de logiciels libres jusqu'à les familiariser avec les éléments de code qui permettront d'en affiner la qualité et le contenu.</p>
+
+  <p>La fabrication d'un livre n'inclut pas la protection des fichiers au moyen de DRM (digital rights management) ou de marquages spécifiques. Ces techniques sont appliquées, le cas échéant, par les distributeurs auxquels chaque éditeur confiera son catalogue. Nous ne les aborderons donc pas dans ce livre pas plus que les aspects commerciaux et juridiques de l'édition numérique tels que le contrat de l'auteur, les licences de diffusion, etc.</p>
+
+  <p>Afin de répondre précisément aux enjeux actuels soulevés par le livre électronique et le format EPUB en particulier, ce livre a été structuré en cinq sections&nbsp;:</p>
+
+  <ul>
+    <li><strong>Créer un epub</strong> se consacre à la méthode, comme aux limites, de la réalisation d'un epub de la façon la plus automatique possible, c'est-à-dire sans avoir à manipuler le code des fichiers&nbsp;;</li>
+
+    <li><strong>Enrichir son epub</strong> conduit doucement le lecteur vers l'acquisition des connaissances afin de profiter pleinement des nombreuses possibilités offertes par le format EPUB et de contourner les limitations de certains logiciels en éditant directement le code. De nombreuses astuces sont également développées au fil des chapitres afin d'ajouter des images, des vidéos, de la musique ou d'incorporer une fonte numérique ;</li>
+
+    <li><strong>Contrôler ses fichiers</strong> est consacré aux nombreuses vérifications à réaliser à la fin de la création du livre électronique afin d'en éprouver la qualité et l'interopérabilité ;</li>
+
+    <li><strong>Annexes</strong>. Cette dernière section dresse la liste des références utilisées pour l'écriture de ce livre, et apporte des précisions précieuses pour sa compréhension au travers d'un glossaire et de l'exposé du schéma de métadonnées de Dublin Core et les spécifications de l'EPUB 3.</li>
+  </ul>
+</div>
+
+<ul class="menu-goes-here">
+  <li style="background: rgb(249, 155, 28);"><a href="http://www.flossmanualsfr.net/creer-un-epub/index">Introduction</a></li>
+
+  <li class="booki-section">Créer un epub</li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch002_calibre">Convertir son fonds à partir de fichiers PDF</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch003_plug-in-ooo">Créer un epub à partir d'un traitement de texte</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch004_exportateur-scribus">Du logiciel de mise en page au fichier epub</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch005_sigil">Créer un epub avec Sigil</a></li>
+
+  <li class="booki-section">Enrichir son epub</li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch007_editeurs-texte-et-xml">Des outils pour façonner le code</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch008_comment-est-constitue-un-epub">Mieux comprendre l'EPUB</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch009_epub-2">EPUB 2</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch010_epub-3">EPUB 3</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch011_extraire-et-recompresser-un-epub">Extraire et recompresser un epub</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch012_specificites-du-css-pour-lepub">Les bases du HTML et du CSS</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch013_ajouter-des-fontes">Typographie et mise en page</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch014_ajouter-des-donnees-multimedias">Ajouter des données multimédias</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch015_ajouter-des-images">Ajouter des images</a></li>
+
+  <li class="booki-section">Contrôler ses fichiers</li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch017_les-lecteurs">Vérifier l'affichage sur les supports de lecture</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch018_verifier-la-validite-du-fichier">Vérifier la validité du fichier</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch019_metadonnees">Valider ses métadonnées</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch020_controler-ou-pas-la-diffusion-du-livre-avec-les-drm">Contrôler ou pas la diffusion du livre avec les DRM</a></li>
+
+  <li class="booki-section">Annexes</li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch022_glossaire">Glossaire</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch023_a-propos-de-ce-livre">A propos de ce livre</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch024_ressources-externes">Ressources et bibliographie</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch025_le-schema-de-metadonnees-de-dublin-core">Le schéma de métadonnées de Dublin Core</a></li>
+
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch026_specification-epub-3">Spécification epub 3</a></li>
+</ul>
+
+      </article>
+      <!--
+      <nav class="navbar">
+        <div class="arrow bottom left">
+          <a href="#"><img src="_templates/fm_resources/previous-arrow.png" alt="" /></a>
+        </div>
+        <div class="arrow bottom right">
+          <a href="#"><img src="_templates/fm_resources/next-arrow.png" alt="" /></a>
+        </div>
+      </nav>-->
+    </main>
+
+
+<aside id="boutique">
+       <!-- <img src="_templates/bookstore_resources//bookstore.gif"/> -->
+       <h1>Commandez ce livre !</h1>
+       <p style="text-align:center">FlossManuals imprime et diffuse ses manuels en livres imprimés. Pour connaître les manuels disponibles, rendez-vous sur notre <br><a href="http://boutique.flossmanualsfr.net/" style="font-size:1.8em">Boutique Fmfr</a>.
+       </p>
+</aside>
+
+<aside id="contribute">
+	<h1>Contribuez à ce livre</h1>
+	<p>Vous avez trouvé une erreur ? Vous avez quelque chose à ajouter ?<br>
+Connectez-vous et améliorez ce livre. Les auteurs et les autres lecteurs vous en remercierons.</p>
+</aside>
+<!-- Piwik -->
+<script type="application/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.flossmanualsfr.net/" : "http://piwik.flossmanualsfr.net/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='application/javascript'%3E%3C/script%3E"));
+</script><script src="./book_files/piwik.js" type="application/javascript"></script><script type="application/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript>&lt;p&gt;&lt;img src="http://piwik.flossmanualsfr.net/piwik.php?idsite=1" style="border:0" alt="" /&gt;&lt;/p&gt;</noscript>
+<!-- End Piwik Tracking Code -->
+    
+  
+
+</body></html>
