@@ -1,143 +1,311 @@
 <!DOCTYPE html>
-<!-- saved from url=(0044)http://www.flossmanualsfr.net/creer-un-epub/ -->
-<html lang="fr" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Créer un epub | Floss Manuals francophone - Lire</title>
-    
-    <link rel="icon" href="http://www.flossmanualsfr.net/creer-un-epub/_templates/fm_resources/fl2.ico" type="image/x-icon">
-    <link type="text/css" href="./book_files/prettify.css" rel="Stylesheet">
-    <script type="application/javascript" src="./book_files/prettify.js"></script>
-    <script type="application/javascript" src="./book_files/jquery-1.6.1.min.js"></script>
-    <script type="application/javascript" src="./book_files/fm_book.js"></script>
-    <link rel="stylesheet" href="./book_files/fm_book.css" type="text/css">
-    <link rel="stylesheet" href="./book_files/fmfr_book.css" type="text/css">
-  </head>
+<html lang="fr" dir="ltr">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Créer un epub | Floss Manuals francophone - Lire</title>
 
-  <body onload="prettyPrint();">
-	  <header>
-		<a href="http://www.flossmanualsfr.net/" id="home"><img src="./book_files/accueil-flossmanuals-booksprint.png" onclick="javascript:window.location=&#39;http://fr.flossmanuals.net&#39;" alt="Accueil Floss Manuals francophone"></a>
-    
-		<h1 id="index-book-title">
-			Créer un epub
-		</h1>
+  <link rel="icon" href="http://www.flossmanualsfr.net/creer-un-epub/_templates/fm_resources/fl2.ico" type="image/x-icon">
+  <link type="text/css" href="./book_files/prettify.css" rel="Stylesheet">
+  <script type="application/javascript" src="./book_files/prettify.js"></script>
+  <script type="application/javascript" src="./book_files/jquery-1.6.1.min.js"></script>
+  <script type="application/javascript" src="./book_files/fm_book.js"></script>
+  <link rel="stylesheet" href="./book_files/fm_book.css" type="text/css">
+  <link rel="stylesheet" href="./book_files/fmfr_book.css" type="text/css">
+ </head>
 
-		<ul id="pdf">
-			<li><a href="http://www.flossmanualsfr.net/_booki/creer-un-epub/creer-un-epub.epub" title="Télécharger l&#39;export automatisé au format epub de Créer un epub"><img src="./book_files/epub.png" alt="Export automatisé au format epub."></a></li>
-			<li><a href="http://www.flossmanualsfr.net/_booki/creer-un-epub/creer-un-epub.pdf" title="Télécharger l&#39;export au format PDF de Créer un epub"><img src="./book_files/pdf.png" alt="Exporter automatisé au format PDF."></a></li>
-			<li><a href="http://www.flossmanualsfr.net/creer-un-epub/_all" title="Imprimer Créer un epub"><img src="./book_files/print.png" alt="Imprimer le manuel dans sa version actuelle"></a></li>
-			<li><a href="http://boutique.flossmanualsfr.net/" title="Commander le livre imprimé du manuel Créer un epub "><img src="./book_files/buy_fm_books.png" alt="Acheter une version imprimée du manuel, contenu vérifié et mis en page selon nos disponibilités et demandes. Différents formats selon manuels."></a></li>	
-		</ul>
+ <body onload="prettyPrint();">
+  <header>
+   <a href="http://www.flossmanualsfr.net/" id="home"><img src="./book_files/accueil-flossmanuals-booksprint.png" onclick="javascript:window.location=&#39;http://fr.flossmanuals.net&#39;" alt="Accueil Floss Manuals francophone"></a>
 
-    </header>
+   <h1 id="index-book-title"> Book Title </h1>
 
-    <main id="main">
-      <nav class="navbar">
-        <div class="arrow top left">
-          <a href="http://www.flossmanualsfr.net/creer-un-epub/#" style="visibility: hidden;"><img src="./book_files/previous-arrow.png" alt=""></a>
-        </div>
-        <div class="arrow top right">
-          <a href="http://www.flossmanualsfr.net/creer-un-epub/ch002_calibre" title="Convertir son fonds à partir de fichiers PDF"><img src="./book_files/next-arrow.png" alt=""></a>
-        </div>
-      </nav>
+   <ul id="pdf">
+    <li>
+     <a href="#" title="Download epub"><img src="./book_files/epub.png" alt="Export automatisé au format epub."></a>
+    </li>
+    <li>
+     <a href="#" title="Download PDF"><img src="./book_files/pdf.png" alt="Exporter automatisé au format PDF."></a>
+    </li>
+    <li>
+     <a href="http://boutique.flossmanualsfr.net/" title="Order this book "><img src="./book_files/buy_fm_books.png" alt="Acheter une version imprimée du manuel, contenu vérifié et mis en page selon nos disponibilités et demandes. Différents formats selon manuels."></a>
+    </li>
+   </ul>
+  </header>
 
-      <article class="fm-content">
-        <div id="main-content">
-  <h1>Introduction</h1>
+  <div id="main">
+   <article class="fm-content">
+    <div id="main-content">
+<h1>Créer un epub à partir d'un traitement de texte</h1>
 
-  <p>L'EPUB (acronyme de « electronic publication » ou « publication électronique ») est un format standardisé pour les fichiers de livres numériques. Il s'appuie notamment sur le HTML, le langage de balisage utilisé pour créer des sites web.</p>
+  <p>Pour créer un epub, la solution la plus simple est d'exporter votre travail écrit avec un traitement de texte de la suite bureautique OpenOffice ou LibreOffice. La procédure est très simple&nbsp;:&nbsp;installez une des deux extensions que nous allons présenter dans ce chapitre, ouvrez votre fichier dans Writer/Texte et exportez votre fichier.</p>
 
-  <p>Un livre au format EPUB est composé de plusieurs dossiers et fichiers réunis dans un conteneur qui porte l'extension .epub. Il contient du texte (fichiers HTML), des images (fichiers <em>.jpg</em>, <em>.png</em> ou <em>.svg</em>), des feuilles de style (fichiers CSS) ainsi que des fichiers décrivant la structure du livre et ses métadonnées (l'ensemble des informations – auteur, titre, date de publication, ISBN... – permettant le bon référencement bibliographique de l'ouvrage).</p>
+  <p>La méthode que nous allons décrire ici implique deux processus différents. D'une part la fabrication papier depuis un logiciel de mise en page, d'autre part la fabrication électronique depuis le logiciel de traitement de texte. Cela implique que les corrections (ortho-typographiques et/ou corrections d'auteur) apportées aux épreuves du livre au fur et à mesure de sa fabrication devront être intégrées dans le logiciel de mise en page et dans l'éditeur de texte. Ce travail de report de corrections pouvant être conséquent, il faut avoir conscience de cette contrainte et évaluer l'apport de cette méthode dans sa chaîne de fabrication.</p>
 
-  <p>Pour éviter les confusions, nous écrivons EPUB pour désigner le format et epub quand il s'agit d'un fichier ainsi que pour le format PDF.</p>
+  <h2>Les extensions pour exporter un epub</h2>
 
-  <h2>Qui a créé l'epub&nbsp;?</h2>
-
-  <p>L'EPUB a été développé par l’IDPF (International Digital Publishing Forum), une organisation à but non lucratif dont le but est de favoriser l'accessibilité des publications numériques en promouvant la création de standards ouverts.</p>
-
-  <p>Elle regroupe aujourd’hui plus de 200 acteurs internationaux du logiciel, d'Internet et de l'édition parmi lesquels des distributeurs, des éditeurs, des librairies et des bibliothèques. L'Association nationale des éditeurs de livres au Canada, le SNE (Syndicat national de l'édition) en France, le groupe d'édition Hachette Livre, ou encore la chaîne de librairie américaine Barnes &amp; Noble en font notamment partie.</p>
-
-  <p>L’IDPF commence ses activités en 1999 avec la création de l’OEB (ou Open eBook) permettant aux éditeurs de disposer d’un premier format standardisé dédié à la lecture numérique, accepté par un grand nombre de dispositifs de lecture.</p>
-
-  <p>En 2007, L'EPUB 2 remplace l’OEB et devient officiellement le nouveau format standard pour les fichiers de livres numériques. L'EPUB (comme l’OEB) est un format dynamique qui s'adapte à tous les supports de lecture en ajustant l'affichage à la taille de l'écran.</p>
-
-  <p>La dernière version, L'EPUB 3, a été présentée officiellement en octobre 2011 lors du Salon du livre de Francfort.</p>
-
-  <p>Par rapport à la version précédente, epub 3 permet notamment&nbsp;:</p>
+  <p>Il existe deux extensions qui vous permettent d'exporter votre fichier .ODT vers un livre epub&nbsp;:</p>
 
   <ul>
-    <li>d'enrichir votre livre numérique avec des documents multimédias (fichiers audio et vidéo)&nbsp;;</li>
+    <li>Writer2ePub qui vous offre une interface très simple d'exportation&nbsp;;</li>
 
-    <li>de mieux intégrer des équations mathématiques grâce au support du format MathML&nbsp;;</li>
-
-    <li>de mieux intégrer les langues n'utilisant pas l'alphabet latin (notamment les langues avec sens de lecture vertical)&nbsp;;</li>
-
-    <li>d'opter pour une mise en page fixe (<em>fixed layout</em>) qui empêche le redimensionnement du contenu et permet donc de conserver la mise en page d'origine. Cette dernière caractéristique facilite notamment la réalisation de livres numériques riches en illustrations.</li>
+    <li>Writer2Latex (W2X) qui contient l'exportation vers plusieurs formats dont HTML (writer2xhtml) et EPUB. Il vous permet d'appliquer de nombreux réglages pour optimiser les caractéristiques de l'epub généré.</li>
   </ul>
 
-  <p>Cette norme revêt une telle importance que plusieurs associations professionnelles d'éditeurs de différents pays ont décidé de devenir membres de l'IDPF afin de prendre une part plus active dans le développement de ce format. C'est le cas notamment du Syndicat national de l'édition (SNE) en France qui a mis en place au sein de son association un groupe de travail consacré aux «&nbsp;Normes et Standards &nbsp;» dans le numérique (<a href="http://www.sne.fr/dossiers-et-enjeux/numerique/normes-et-standards.html">http://www.sne.fr/dossiers-et-enjeux/numerique/normes-et-standards.html</a>).</p>
+  <h3>Writer2ePub</h3>
 
-  <h2>Le livre électronique&nbsp;: EPUB ou PDF&nbsp;?</h2>
+  <p><img src="./Créer un epub _ Floss Manuals francophone - Lire_files/writer2epub_options_600_1.png"></p>
 
-  <p>Le PDF est un autre format standard, sur lequel repose encore actuellement la plus grande partie de la production et de la commercialisation de livres.</p>
+  <p>Writer2ePub peut être téléchargé à partir du dépôt d'extensions d'OpenOffice (<a href="http://extensions.openoffice.org/en/project/Writer2ePub">http://extensions.openoffice.org/en/project/Writer2ePub</a>).</p>
 
-  <p>L'EPUB et le PDF reposent sur des logiques tout à fait différentes. Le PDF suit une logique visuelle, correspondant à la page papier. Il a initialement été pensé pour échanger des fichiers tout en préservant la mise en forme d'origine et sert aujourd'hui de base à l'impression. L'EPUB est au contraire à l'origine une forme de publication en flux, s'adaptant visuellement et fonctionnellement à son support de lecture : taille de l'écran, capacités d'interaction, etc.</p>
+  <p>Pour installer Writer2ePub démarrez Office, lancez le gestionnaire d'extensions [ Outils &gt; Gestionnaire des extensions ] et après avoir cliqué sur le bouton [ Ajouter ] activez l'extension « writer2epub.oxt ».</p>
 
-  <p>Cette « fluidité » du format epub a été un frein au passage de nombreux éditeurs à l'édition électronique. Le format est pourtant aujourd'hui largement accepté et recommandé du fait des changements d'outils et d'usages de lecture. À l'instar du HTML utilisé pour les sites web, les contenus d'un livre epub se présentent en un flux recomposable qui s'adapte aux différents écrans, lesquels vont du smartphone aux tablettes en passant par toutes les tailles d'ordinateurs. Cette particularité, qui bouscule pourtant fortement la tradition éditoriale, répond très bien à ces nouveaux usages mobiles.</p>
+  <p>Une fois l'extension installée, vous devriez avoir trois nouveaux boutons dans la partie gauche de la barre principale représentant le logo epub.</p>
 
-  <h2>Une nécessaire adaptation de la chaîne de fabrication</h2>
+  <p><img src="./Créer un epub _ Floss Manuals francophone - Lire_files/writer2epub-installed.png"></p>
 
-  <p>La chaîne de fabrication traditionnelle d'un livre consiste à importer un fichier bureautique (texte et images) issu d'un logiciel de traitement de texte dans un logiciel de mise en page (Scribus, InDesign, QuarkXpress, PageMaker, Publisher etc.) pour produire un fichier pdf destiné à l'impression. Le fonds des éditeurs est ainsi principalement constitué de fichiers pdf. C'est donc à partir de ceux-ci que sont la plupart du temps produits les fichiers epub.</p>
+  <p>Pour tout nouveau fichier créé ou ouvert, vous aurez une nouvelle barre d'outils avec trois boutons qui vous permettent de configurer les métadonnées et de lancer l'exportation.</p>
 
-  <p>Or, si le PDF et l'EPUB n'ont pas du tout la même logique, ils n'ont pas non plus les mêmes soubassements techniques. Le code du fichier epub spécifie la fonction de chaque élément dans le texte (titre, paragraphe, élément d'une liste, citation...) pour leur associer ensuite une façon de s'afficher ou de se comporter. Rien dans un fichier pdf n'indique le rôle que jouent les éléments de contenu, autrement que par leur apparence : on « voit » que tel titre est un titre de chapitre car il est graphiquement distinct des autres. Malheureusement, contrairement à un humain qui sait implicitement distinguer un titre de chapitre du reste du texte par sa simple différence graphique, aucun logiciel ne « voit » cela par lui-même.</p>
+  <h3>Writer2xhtml</h3>
 
-  <p>Dans la conversion du pdf vers l'epub, il faut donc redonner à chaque élément du texte sa fonction. Cela peut se faire en associant aux données géométriques de la maquette une structure fonctionnelle. Mais peu de logiciels permettent de le faire de manière satisfaisante et il reste indispensable de procéder à une validation humaine page à page du résultat. Dans la plupart des cas, nous récupérons un texte brut sans aucune distinction. Tout le travail de structuration est alors à refaire.</p>
+  <p><img src="./Créer un epub _ Floss Manuals francophone - Lire_files/writer2xhtml_options_600.png"></p>
 
-  <p>Il faut ajouter à cela qu'un pdf peut réserver quelques surprises. Peu importe la manière dont a été géré le contenu tant qu'il apparaît « comme il faut ». Ainsi, un texte visuellement linéaire peut en fait ne pas l'être et apparaître déstructuré lorsqu'on le copie. Des contenus invisibles, camouflés dans un bloc de texte mis en blanc, réapparaîtront au milieu du texte récupéré. Les cas de déstructuration sont nombreux&nbsp;:&nbsp;notes de bas de page réparties sur deux pages, césures de fin de ligne, éléments des cellules d'un tableau éparpillés, etc.</p>
-
-  <p>Quelle que soit la qualité du fichier pdf considéré, et malgré le développement d'outils de récupération automatique de plus en plus performants, le PDF est donc un format peu approprié pour servir de point de départ à un processus d'édition epub. S'il est incontournable lorsqu'il s'agit de traiter le fonds ancien, il est donc recommandé aux éditeurs de mettre en place dès aujourd'hui des processus de fabrication qui permettront à l'avenir de produire les pdf et les epub en parallèle et non plus successivement.</p>
-
-  <p>C'est pourquoi nous verrons ici comment fabriquer un epub à partir d'un pdf mais aussi en partant d'une source texte (OpenOffice, LibreOffice, MS Word...), du logiciel de mise en page ou en rédigeant directement dans un éditeur epub. À vous d'évaluer chacune de ces méthodes et de voir de quelle manière elle s'insère dans votre chaîne de fabrication papier, le cas échéant.</p>
-
-  <h2>Un format ouvert</h2>
-
-  <p>L’epub a la particularité d’être un format libre et ouvert contrairement à d’autres formats, dits propriétaires, qui reprennent une technologie similaire. Citons ainsi le MoBi et son successeur le KF8, formats propriétaires créés ou repris par Amazon.</p>
-
-  <p>Un format ouvert est accessible à tous. Ses normes techniques sont connues et documentées et on peut accéder sans barrière au code du fichier. Cette particularité permet aux créateurs d'epub de modifier et contrôler leurs fichiers comme ils l'entendent et aux informaticiens de développer des applications de lecture et d'édition des livres.</p>
-
-  <p>Cette ouverture technologique a un impact très important pour les éditeurs comme pour les lecteurs. Les éditeurs peuvent maîtriser leur chaîne de fabrication et la qualité de leur production, à long terme. D'autre part cette ouverture permet de construire un écosystème varié de diffusion et de distribution&nbsp;:&nbsp;personne ne détient à lui seul les clefs permettant de gérer, de vendre, de lire, d'annoter les livres qui constituent le fonds propre de chaque éditeur.</p>
-
-  <p>Les lecteurs, de leur côté, ont à leur disposition de nombreux outils de lecture. Différentes applications, libres ou non, gratuites ou payantes, sont disponibles sur le marché pour afficher leurs fichiers, les classer, les administrer.</p>
-
-  <p>Le format propriétaire MoBi ne peut être lu qu'avec des applications dédiées fournies par Amazon qui possède également son propre support de lecture, le Kindle. À l'inverse, l'EPUB est lisible directement (sans conversion ou installation d'applications supplémentaires) sur tous les dispositifs de lecture tels que tablettes, liseuses, smartphones, ordinateurs... à l’exception du Kindle.</p>
-
-  <p>La réalisation d'ouvrages numériques au format EPUB s'inscrit fondamentalement dans un contexte de création et d'usages favorisant la liberté technologique et, en conséquence, la liberté commerciale. En utilisant ce format, l'éditeur comme le lecteur n'est pas contraint de dépendre d'une plateforme unique de vente, d'un seul acteur numérique du secteur ou d'un dispositif de lecture en particulier. C'est sans doute en raison de cette adaptabilité et de cette souplesse que le format EPUB s'impose aujourd'hui comme un standard et est adopté par la plupart des grands fabricants et vendeurs de livres numériques.</p>
-
-  <h2>Présentation du contenu de l'ouvrage</h2>
-
-  <p>Cet ouvrage s'adresse principalement aux éditeurs indépendants et aux professionnels de la mise en page souhaitant s'initier à la création de livres au format EPUB. L'objectif est de les accompagner sur un plan pratique dans la création de ce type de documents numériques à l'aide de logiciels libres jusqu'à les familiariser avec les éléments de code qui permettront d'en affiner la qualité et le contenu.</p>
-
-  <p>La fabrication d'un livre n'inclut pas la protection des fichiers au moyen de DRM (digital rights management) ou de marquages spécifiques. Ces techniques sont appliquées, le cas échéant, par les distributeurs auxquels chaque éditeur confiera son catalogue. Nous ne les aborderons donc pas dans ce livre pas plus que les aspects commerciaux et juridiques de l'édition numérique tels que le contrat de l'auteur, les licences de diffusion, etc.</p>
-
-  <p>Afin de répondre précisément aux enjeux actuels soulevés par le livre électronique et le format EPUB en particulier, ce livre a été structuré en cinq sections&nbsp;:</p>
+  <p>Writer2xhtml peut être téléchargé de <a href="http://writer2latex.sourceforge.net/" target="_blank" title="http://writer2latex.sourceforge.net/" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://writer2latex.sourceforge.net/</a>:</p>
 
   <ul>
-    <li><strong>Créer un epub</strong> se consacre à la méthode, comme aux limites, de la réalisation d'un epub de la façon la plus automatique possible, c'est-à-dire sans avoir à manipuler le code des fichiers&nbsp;;</li>
+    <li>Il vous faut télécharger le paquet Writer2LaTeX 1.2 qui contient entre autres Writer2epub (la version 1.0.2 que vous trouvez sur le site des extensions d'OpenOffice ne prévoit pas l'export vers EPUB) ;</li>
 
-    <li><strong>Enrichir son epub</strong> conduit doucement le lecteur vers l'acquisition des connaissances afin de profiter pleinement des nombreuses possibilités offertes par le format EPUB et de contourner les limitations de certains logiciels en éditant directement le code. De nombreuses astuces sont également développées au fil des chapitres afin d'ajouter des images, des vidéos, de la musique ou d'incorporer une fonte numérique ;</li>
+    <li>Writer2xhtml peut être utilisé avec OpenOffice.org 3.0 et LibreOffice 3.3 (ou plus récent) ;</li>
 
-    <li><strong>Contrôler ses fichiers</strong> est consacré aux nombreuses vérifications à réaliser à la fin de la création du livre électronique afin d'en éprouver la qualité et l'interopérabilité ;</li>
+    <li>Java 5 doit être installé ;</li>
 
-    <li><strong>Annexes</strong>. Cette dernière section dresse la liste des références utilisées pour l'écriture de ce livre, et apporte des précisions précieuses pour sa compréhension au travers d'un glossaire et de l'exposé du schéma de métadonnées de Dublin Core et les spécifications de l'EPUB 3.</li>
+    <li>L'interface existe uniquement en anglais.</li>
   </ul>
-</div>
 
-<ul class="menu-goes-here">
-  <li style="background: rgb(249, 155, 28);"><a href="http://www.flossmanualsfr.net/creer-un-epub/index">Introduction</a></li>
+  <p>Pour installer Writer2xhtml décompressez le fichier .ZIP que vous venez de télécharger, démarrez Office, lancez le gestionnaire d'extensions ([ Outils &gt; Gestionnaire des extensions ]) et, après avoir cliqué sur le bouton [ Ajouter ], activez l'extension « writer2xhtml.oxt ».</p>
+
+  <p>Désormais, vous aurez dans [ Fichier &gt; Exporter... ], parmi les types de fichiers disponibles, le format .EPUB.</p>
+
+  <h2>Préparez le document à la cible</h2>
+
+  <p>Dans les paragraphes qui suivent, nous allons vous donner quelques conseils préparatoires pour faciliter à la fois&nbsp;:</p>
+
+  <ul>
+    <li>le travail dans OpenOffice / LibreOffice&nbsp;;</li>
+
+    <li>l'exportation en EPUB&nbsp;;</li>
+
+    <li>la retouche de l'epub après sa création dans un logiciel dédié comme Sigil.</li>
+  </ul>
+
+  <p>Il s'agit de conseils généraux qui peuvent en général s'appliquer quelle que soit l'extension choisie. Parmi ces conseils, vous pourrez appliquer en priorité ceux qui vous semblent les plus importants dans vos productions, car ils ne sont pas normatifs. Nous verrons ensuite spécifiquement les options de chaque extension pour l'exportation.</p>
+
+  <h3>Affichage en mode Web</h3>
+
+  <p>Comme votre texte LibreOffice&nbsp;/&nbsp;OpenOffice devra être intégré dans un fichier epub et que celui-ci n'a pas de dimension, il est inutile de travailler avec l'aperçu du résultat imprimé qui simule une page A4 à l'écran. Utilisez le menu Affichage &gt; Mise en page Web, pour voir votre contenu en mode flux.</p>
+
+  <p><img src="./Créer un epub _ Floss Manuals francophone - Lire_files/writer2epub-affichageprint.png"></p>
+
+  <p>Dans l'affichage en mode web, le texte est réadapté lorsque vous changez la taille de la fenêtre de document ce qui est parfait pour faire des tests de comportement selon la taille du périphérique de lecteur.</p>
+
+  <p><img src="./Créer un epub _ Floss Manuals francophone - Lire_files/writer2epub-affichageWeb.png"></p>
+
+  <p><img src="./Créer un epub _ Floss Manuals francophone - Lire_files/writer2epub-afficherWeb2.png"></p>
+
+  <h3>Éviter la mise en forme directe du texte</h3>
+
+  <p>Un conseil commun lors de la préparation de la publication est de veiller à garder une certaine sobriété. Cette recommandation est particulièrement importante lorsque vous visez la création d'œuvres epub&nbsp;:&nbsp;votre epub sera lu sur des dispositifs très disparates et vous n'avez qu'un contrôle limité sur la façon dont il sera affiché. N'abusez donc pas des polices, des tailles, des couleurs, des styles, etc.</p>
+
+  <p>Pour vous assurer que seuls les formats que vous avez décidé d'appliquer seront exportés, il est conseillé avant de commencer votre travail de formatage de lancer la commande [ Format &gt; Effacer le formatage directe ]. Vous allez revenir au style standard pour tout le document en perdant le formatage manuel, mais en gardant les attributs du style standard (police, alignements etc...). Ce formatage avec retour à zéro est un peu intimidant à utiliser. Essayez-le au moins une fois sur un texte de quelques lignes.</p>
+
+  <h3>Préférez les styles</h3>
+
+  <p>Une autre bonne habitude est de systématiser l'emploi des styles au détriment du formatage manuel utilisé trop régulièrement dans le traitement de texte classique.</p>
+
+  <p>La fenêtre Styles et formatage (F11) permet de modifier de façon pointue les attributs de chaque style et d'en créer des nouveaux.</p>
+
+  <p>Mais de combien de styles avez-vous besoin&nbsp;? Si l'on reste dans le domaine de la littérature, la moyenne devrait se situer entre dix et quinze. Par exemple, titre, sous-titre, corps de texte, citation, contenu de tableau, notes de fin, etc. OpenOffice&nbsp;/ LibreOffice fournissent déjà des styles pour la majorité de ces catégories. Ils sont très simples à trouver et à utiliser&nbsp;:</p>
+
+  <ol>
+    <li>Affichez la fenêtre [Styles et formatage] en allant dans le menu Format &gt; Styles et formatage&nbsp;;</li>
+
+    <li>Sélectionnez le texte que vous souhaitez styler, par exemple un titre&nbsp;;</li>
+
+    <li>Dans la fenêtre [Styles et formatage], cliquez sur la première icône en haut nommée [Styles de paragraphe]&nbsp;<img src="./Créer un epub _ Floss Manuals francophone - Lire_files/writer2epub-style_para_ico.png"> puis en bas, déroulez la liste pour obtenir [Tous les styles]&nbsp;;</li>
+
+    <li>La liste principale de la fenêtre doit s'allonger, cherchez [Titre] et cliquez simplement dessus pour l'appliquer au texte sélectionné.</li>
+  </ol>
+
+  <p><img src="./Créer un epub _ Floss Manuals francophone - Lire_files/writer2epub-styles_titreCapture du 2012-08-30 18-30-57.png"></p>
+
+  <p>Regardez bien les styles de paragraphes fournis par le logiciel, faites votre sélection puis appliquez-les selon vos souhaits. Si l'aspect qu'ils ont ne vous convient pas, continuez à utiliser les styles qui conviennent au contenu, mais modifiez simplement leur aspect en cliquant avec le bouton droit sur leur nom et en choisissant [Modifier].</p>
+
+  <p>Une petite astuce&nbsp;:&nbsp;pour appliquer plus rapidement des styles plus adaptés à votre cible -- l'epub -- vous pouvez utiliser la commande [ Édition &gt; Rechercher/remplacer ] pour appliquer des styles ou autres attributs de formatage.</p>
+
+  <p>Pour appliquer un changement non pas à tout un paragraphe ou titre, mais seulement à une partie de celui-ci, valorisez l'utilisation des styles de caractères qui vous permettront ensuite de retoucher plus facilement votre document, si besoin. Le fonctionnement est le même qu'avec les styles de paragraphe, hormis que le style de caractère ne s'applique strictement qu'à la partie du texte sélectionnée et que ceux-ci sont listés séparément. Vous y accéderez en cliquant sur <img src="./Créer un epub _ Floss Manuals francophone - Lire_files/writer2epub-style_car_ico.png">.</p>
+
+  <p>Une fois vos styles utilisés, vous pouvez alléger la liste des styles pour travailler plus vite en passant dans la liste [Styles appliqués] de la fenêtre [Styles et formatage].</p>
+
+  <p><img src="./Créer un epub _ Floss Manuals francophone - Lire_files/writer2peub-styles_appliques.png"></p>
+
+  <h3>Les marges et les espaces</h3>
+
+  <p>On a tous tendance, pour ajuster une mise en page, à rajouter des sauts, vides, de paragraphe en appuyant plusieurs fois sur la touche [Entrée]. Il s'agit d'une mauvaise habitude qui est en général à éviter, mais qui, dans le cas de l'export vers epub, conduit à une transcription disgracieuse. Vous êtes donc invités à utiliser les espacements au-dessus et en dessous des paragraphes dans les styles, notamment pour les titres, les légendes des images, et les tableaux.</p>
+
+  <p>Pour forcer un saut de page, utilisez la commande [ Insertion &gt; Saut manuel ]</p>
+
+  <p>Lors du contrôle des espacements, vous pouvez activer l'option [ Affichage &gt; Caractères non imprimables ] pour voir tous les caractères que vous avez insérés.</p>
+
+  <p>Enfin, dans ses options d'exportation, Writer2xhtml vous permet d'éviter que des paragraphes vides soient exportés dans le fichier epub.</p>
+
+  <h3>Insérer des images</h3>
+
+  <p>Toutes vos images enregistrées aux formats&nbsp;:</p>
+
+  <ul>
+    <li>Le JPEG et GIF pour les photos&nbsp;;</li>
+
+    <li>Le PNG pour les dessins ou logos,</li>
+  </ul>
+
+  <p>sont utilisables dans vos documents Openoffice&nbsp;/&nbsp;LibreOffice et seront exportés en epub.</p>
+
+  <p>Et le SVG&nbsp;? Il fait partie des spécifications OPS 2.0 et son emploi est possible dès à présent avec LibreOffice. On peut aussi utiliser un conteneur svg par exemple pour l'insertion d'images standard. Ce format n'est cependant pas encore supporté par toutes les liseuses et pourra poser des problèmes ultérieurs de conversion vers d'autres formats (MOBI,...).</p>
+
+  <p>Compte tenu des capacités des liseuses, la résolution d'une image devrait se situer entre 150 et 170 dpi. Cette valeur va bien sûr varier ensuite selon les tailles d'écran.</p>
+
+  <p>À titre de compromis, pour les images pleins écrans, il est possible de choisir une taille d'image réelle proche de 600 x 800 pixels. Les images plus grandes ralentiront le processus d'exportation sans gain pour le lecteur. Au pire, elles ne s'afficheront même pas sur beaucoup de liseuses, car étant considérées comme trop volumineuses.</p>
+
+  <p>Il faut donc parfois rétrécir leur taille en utilisant un logiciel de traitement d’images comme GIMP (menu Image/Échelle) ou autres. Pour plus d'informations à ce sujet, vous pouvez vous reporter au manuel Gimp à la page <a title="Redimensionner avec Gimp" href="http://www.flossmanualsfr.net/initiation-gimp/ch008_changer-les-dimensions">http://fr.flossmanuals.net/initiation-gimp/ch008_changer-les-dimensions</a>.</p>
+
+  <p>Cela prend quelques secondes par image, mais vous pourrez ainsi contrôler plus finement l'affichage.</p>
+
+  <h3>Les tabulateurs, les listes et les tableaux</h3>
+
+  <p>L'utilisation de tabulations pour créer une présentation tabulaire ne pouvant pas être reproduite dans le format EPUB, vous allez devoir vous rabattre sur des listes ou des tableaux.</p>
+
+  <p>Mais soyez parcimonieux aussi avec les listes et les tableaux&nbsp;! Beaucoup de vos lecteurs vont lire votre œuvre sur des écrans de taille limitée et des listes trop longues ou des tableaux trop complexes sont difficiles à lire.</p>
+
+  <p>Sachez aussi que dans le fichier epub, vous ne retrouverez pas l'assortiment complet des puces fantaisie d'Office.</p>
+
+  <h3>Hyperliens et repères de texte</h3>
+
+  <p>Tandis que les hyperliens, comme on pouvait bien s'y attendre, les liens utilisant comme cibles des repères de texte (créés avec le menu insertion&nbsp;:&nbsp;repère de texte) ou des images sont transcrits fidèlement, les renvois et autres champs de références complexes sont à éviter.</p>
+
+  <h2>La structure du document</h2>
+
+  <h3>Les métadonnées</h3>
+
+  <p>Les métadonnées sont les données bibliographiques et descriptives qui accompagnent votre document. Vous pouvez les ajouter&nbsp;:</p>
+
+  <ul>
+    <li>soit, à partir de l'interface de Writer, avec l'appel au menu &nbsp;Fichier &gt; Propriétés, voire en utilisant l'onglet [Propriétés personnalisées] ;</li>
+
+    <li>soit à partir de la fenêtre de dialogue de W2X ou W2epub.</li>
+  </ul>
+
+  <p>Les champs <em>Titre</em> et <em>Auteur</em> des métadonnées qui apparaîtront dans vos liseuses en font partie.</p>
+
+  <h3>La table des matières</h3>
+
+  <p>Dans le traitement de texte classique et les PDF vous allez demander à Writer de créer pour vous une table des matières s'appuyant sur les styles de paragraphe. L'export vers epub utilise le même mécanisme, mais vous n'avez pas besoin d'insérer la table des matières dans votre document&nbsp;:&nbsp;elle sera générée automatiquement et insérée dans un fichier spécifique à l'intérieur de l'epub. Vous devez simplement veiller à ce que la structure de votre document telle qu'elle apparaît dans le navigateur (F5) corresponde à la table des matières que vous souhaitez voir apparaître dans l'epub.</p>
+
+  <h3>Valeurs relatives dans Writer</h3>
+
+  <p>Imaginons que vous ayez fixé une largeur de 50% à une image de votre EPUB. Si vous désirez l'utiliser sur un iPad (exemple), dont la largeur de page serait de 12 centimètres et les marges de 5 millimètres de part et d'autre, la largeur de l'image sera réadaptée au nouveau format de page et mesurera exactement&nbsp;: 120 - (2x5) /2 = 55 millimètres.</p>
+
+  <p>W2X affiche une image en plein écran si elle répond aux deux conditions suivantes&nbsp;:</p>
+
+  <ul>
+    <li>Les dimensions de l'image doivent avoir un rapport de 3 x 4 (exemple, et au minimum, 600 x 800 px)&nbsp;;</li>
+
+    <li>L'action de W2X créant une image plein écran (sans aucune marge) est déclenchée à partir d'un pourcentage de largeur fixé par l'utilisateur dans la fenêtre de dialogue de W2X (voir encadré).</li>
+  </ul>
+
+  <h2>Produire l'epub avec Writer2Epub</h2>
+
+  <p>Maintenant que les préparatifs sont effectués, il ne reste plus qu'à produire l'epub proprement dit. Dans LibreOffice Writer, vérifiez que vous avez bien enregistré votre document et cliquez sur le premier bouton Writer2Epub.</p>
+
+  <p><img alt="Fenêtre des Métadonnées de Writer2Epub" src="./Créer un epub _ Floss Manuals francophone - Lire_files/w2e-props1.png" height="370" width="600"></p>
+
+  <h3>Writer2Epub&nbsp;:&nbsp;métadonnées et couverture</h3>
+
+  <p>Les champs de ce premier écran, par défaut Document Metadata, appellent peu de commentaires. Il est préférable de tous les renseigner.</p>
+
+  <p>En ce qui concerne la couverture, vous avez la possibilité de&nbsp;:</p>
+
+  <ul>
+    <li>Utiliser la première image du document. Si vous avez mis une image en première page, ce sera celle-ci, mais ce peut aussi bien être une image située plus loin dans votre document. Avec cette option vous contrôlez donc difficilement l'aspect de la couverture&nbsp;;</li>
+
+    <li>Sélectionner [Aucune image] fera simplement commencer le texte en première page, sans couverture. Le texte aura l'aspect tel que défini dans le fichier LibreOffice. Cependant, cette option n'est pas conseillée pour les documents que vous souhaitez rendre publics puisque la première page du document est souvent utilisée par les gestionnaires de librairies électroniques comme icône d'aperçu. Vous rendriez votre document difficilement reconnaissable&nbsp;;</li>
+
+    <li>Enfin, [À partir du fichier] permet de charger une image préparée à l'avance soit par vos soins dans un logiciel comme <a title="livre initiation à Gimp" href="http://boutique.flossmanualsfr.net/11-initiation-a-gimp.html">Gimp</a> ou <a title="manuel Inkscape" href="http://fr.flossmnanuals.fr/inkscape">Inkscape</a>, soit par un prestataire externe.</li>
+  </ul>
+
+  <h3>Writer2Epub&nbsp;:&nbsp;Préférences d'exportation</h3>
+
+  <p>Vous pouvez ensuite cliquer sur le bouton [Document Preferences] pour personnaliser le comportement de Writer2Epub quant au contenu&nbsp;:</p>
+
+  <h4>Index</h4>
+
+  <p>Si la case [Ajouter l'index au fichier epub] est cochée, la table des matières sera ajoutée dans le document. Le champ [Index Title] permet de contrôler le texte qui apparaît au-dessus de l'index, par exemple « Table des matières ». Nous rappelons que la table des matières ne doit pas nécessairement être placée dans le contenu comme page puisque les lecteurs de fichiers epub mettent toujours à disposition cette table à l'aide d'un bouton qui y donne un accès permanent.</p>
+
+  <h4>File Split</h4>
+
+  <p>Le fichier epub étant un assemblage de fichiers, W2E a besoin d'indications pour savoir où et comment effectuer les scissions. La méthode adoptée ici est fondée sur&nbsp;:</p>
+
+  <ul>
+    <li>les styles en cochant les cases correspondants aux Heading 1, 2 ou 3 (Titre1, 2 et 3). Dans le cas montré dans la capture suivante, seuls les 2 premiers niveaux de titre sont utilisés&nbsp;;</li>
+
+    <li>selon le poids de la page [Splt files every] qui va découper votre document epub en partie dès que la partie en cours atteint la limite mentionnée. Cette méthode est évidemment moins utile pour le lecteur final, car elle ne suit pas la structure du contenu textuel.</li>
+  </ul>
+
+  <h4>Images</h4>
+
+  <p>Par défaut Writer2Epub va transformer les images pour alléger le fichier epub. Leur taille, en particulier, est réduite pour répondre aux besoins de la lecture sur périphérique mobile et leur enregistrement se fait au format JPEG. Si vous cochez la première case, les images originales seront conservées à leur taille.</p>
+
+  <p>À moins que vous n'ayez coché la case précédente, vous pourrez définir la qualité de compression appliquée aux images produites automatiquement par le plug-in.</p>
+
+  <p>Enfin, [Convert images in Black&amp;White] va convertir toutes les images en niveau de gris. Cette option n'est utile que dans les contextes où vous souhaitez diffuser votre document pour des périphériques monochromes (Kobo..., éventuellement dédié à des impressions).</p>
+
+  <h3>Fonts</h3>
+
+  <p>Les paramètres de taille et d'intégration de fontes numériques sont plus problématiques qu'autre chose puisque pour diffuser une fonte numérique, il faut avoir les droits ad hoc et les fontes numériques mentionnées dans la liste ne sont pas libres. De plus le lecteur a souvent la possibilité de modifier les fontes dans son logiciel de lecture. Il nous semble donc inutile d'intégrer des polices aussi standard qui alourdiront le fichier sans réel avantage.</p>
+
+  <p><img src="./Créer un epub _ Floss Manuals francophone - Lire_files/w2e-props2.png" height="370" width="600"></p>
+
+  <p>Cliquez alors sur OK dans la partie extrême gauche de la fenêtre. Attendez un peu. Writer2epub va éventuellement afficher une fenêtre indiquant les styles qu'il ignorera puis il continuera dès que vous validerez jusqu'à aboutir à la fenêtre de rapport qui doit mentionner « Export en epub complété ». Le fichier epub est créé dans le même dossier que le document ayant servi à le générer, et porte le même nom, mais avec l'extension .epub.</p>
+
+  <p><img src="./Créer un epub _ Floss Manuals francophone - Lire_files/w2e-done.png"></p>
+
+  <h2>Produire l'epub avec Writer2Latex</h2>
+
+  <p>La production d'epub à partir de Writer2Latex est légèrement différente. Il faudra aller chercher le menu de lancement dans Fichier&gt;Exporter puis choisir epub dans la liste des formats de fichier disponibles. Mentionnez éventuellement le nom et le dossier de destination.</p>
+
+  <p>La fenêtre d'exportation comporte plusieurs paramètres qu'il faudra renseigner.</p>
+
+  <p><img src="./Créer un epub _ Floss Manuals francophone - Lire_files/W2X-win1.png"></p>
+
+  <h4>Gérer l'export des images avec Writer2latex</h4>
+
+  <p>Pour définir la taille finale des images, utilisez le réglage [Image Size]. Le réglage recommandé est [Use relative size], car il laisse en particulier l'image s'adapter aux tailles d'écran.</p>
+
+  <h4>Définir l'exportation du texte</h4>
+
+  <p>En ce qui concerne le texte, les paramètres par défaut sont intéressants. Le plug-in tente de garder tant que possible les styles que vous avez définis, il utilise des valeurs relatives conseillées pour les affichages à l'écran, car plus adaptables. En ce qui concerne les mises à l'échelle [scaling] de texte et de colonnes, ces paramètres sont de toute façon modifiables par le lecteur et dépendent au final des capacités du périphérique de lecture.</p>
+
+  <p>En revanche, les options [Ignore hard line breaks], [Ignore empty paragraphs] et [Ignore double spaces] sont très intéressantes, car elles permettent de «&nbsp;nettoyer&nbsp;» automatiquement des erreurs de saisies fréquentes.</p>
+
+  <p>Enfin, vous pouvez ajouter automatiquement les notes utilisées dans votre document LibreOffice. La relation entre l'appel de note et la note demeure.</p>
+
+    
+    <ul class="menu-goes-here">
+  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/index">Introduction</a></li>
 
   <li class="booki-section">Créer un epub</li>
 
   <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch002_calibre">Convertir son fonds à partir de fichiers PDF</a></li>
 
-  <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch003_plug-in-ooo">Créer un epub à partir d'un traitement de texte</a></li>
+  <li style="background: rgb(249, 155, 28);"><a href="./Créer un epub _ Floss Manuals francophone - Lire_files/Créer un epub _ Floss Manuals francophone - Lire.html">Créer un epub à partir d'un traitement de texte</a></li>
 
   <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch004_exportateur-scribus">Du logiciel de mise en page au fichier epub</a></li>
 
@@ -186,44 +354,46 @@
   <li><a href="http://www.flossmanualsfr.net/creer-un-epub/ch026_specification-epub-3">Spécification epub 3</a></li>
 </ul>
 
-      </article>
-      <!--
-      <nav class="navbar">
-        <div class="arrow bottom left">
-          <a href="#"><img src="_templates/fm_resources/previous-arrow.png" alt="" /></a>
-        </div>
-        <div class="arrow bottom right">
-          <a href="#"><img src="_templates/fm_resources/next-arrow.png" alt="" /></a>
-        </div>
-      </nav>-->
-    </main>
-
-
-<aside id="boutique">
-       <!-- <img src="_templates/bookstore_resources//bookstore.gif"/> -->
-       <h1>Commandez ce livre !</h1>
-       <p style="text-align:center">FlossManuals imprime et diffuse ses manuels en livres imprimés. Pour connaître les manuels disponibles, rendez-vous sur notre <br><a href="http://boutique.flossmanualsfr.net/" style="font-size:1.8em">Boutique Fmfr</a>.
-       </p>
-</aside>
-
-<aside id="contribute">
-	<h1>Contribuez à ce livre</h1>
-	<p>Vous avez trouvé une erreur ? Vous avez quelque chose à ajouter ?<br>
-Connectez-vous et améliorez ce livre. Les auteurs et les autres lecteurs vous en remercierons.</p>
-</aside>
-<!-- Piwik -->
-<script type="application/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.flossmanualsfr.net/" : "http://piwik.flossmanualsfr.net/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='application/javascript'%3E%3C/script%3E"));
-</script><script src="./book_files/piwik.js" type="application/javascript"></script><script type="application/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript>&lt;p&gt;&lt;img src="http://piwik.flossmanualsfr.net/piwik.php?idsite=1" style="border:0" alt="" /&gt;&lt;/p&gt;</noscript>
-<!-- End Piwik Tracking Code -->
     
-  
+   </article>
 
-</body></html>
+  </div>
+
+  <aside id="boutique">
+
+   <h1>Buy this book !</h1>
+   <p style="text-align:center">
+    FlossManuals prints and distributes some of its manuels as printed books. To find out what manuals are available have a look at our
+    <br>
+    <a href="http://boutique.flossmanualsfr.net/" style="font-size:1.8em">Online shop</a>.
+   </p>
+  </aside>
+
+  <aside id="contribute">
+   <h1>Contribute to this book</h1>
+   <p>
+    Have you found an error? Is something out of date? Can you add more to this manual? 
+    <br>
+    Contact us and improve this book. The writers and other readers will thank you for it!
+   </p>
+  </aside>
+  <!-- Piwik -->
+  <script type="application/javascript">
+   var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.flossmanualsfr.net/" : "http://piwik.flossmanualsfr.net/");
+   document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='application/javascript'%3E%3C/script%3E"));
+  </script><script src="./book_files/piwik.js" type="application/javascript"></script>
+  <script type="application/javascript">
+   try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+   } catch( err ) {
+   }
+  </script>
+  <noscript>
+   &lt;p&gt;&lt;img src="http://piwik.flossmanualsfr.net/piwik.php?idsite=1" style="border:0" alt="" /&gt;&lt;/p&gt;
+  </noscript>
+  <!-- End Piwik Tracking Code -->
+
+ </body>
+</html>
