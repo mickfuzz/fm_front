@@ -1,0 +1,153 @@
+.float-clearer {
+    clear: both;
+}
+
+body {
+    background: url('../index_fr_files/background.gif');
+}
+
+/*from dtu tommy*/
+
+h4, a, .h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 7px;
+}
+
+
+.thumbnail-list {
+    margin-bottom: 0px;
+}
+
+.thumbnail {
+    background-color: transparent;
+    border: 0 none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.descpadding {
+    padding: 2px 2px 2px 0;
+}
+.leftpadding {
+    padding: 2px 2px 2px 15px;
+}
+.rightpadding {
+    padding: 2px 5px 2px 2px;
+}
+.midpadding {
+    padding: 2px;
+}
+
+.panel-body {
+    padding: 10px 20px;
+}
+
+.padding {
+    padding: 3px 30px;
+}
+
+/*end from dtu tommy*/
+
+#header {
+    margin-top: 23px;
+    margin-left: 270px;
+    background-repeat: no-repeat;
+    background-position: 430px 0px;
+}
+#navigation {
+    position: absolute;
+    top: 80px;
+    left: 357px;
+}
+#languages {
+    position: absolute;
+    top: 40px;
+    left: 740px;
+}
+
+#content {
+    margin-top: 1.5em;
+    margin-left: 280px;
+    margin-right: 10%;
+    border: solid 5px #666;
+    background: white;
+    padding: 1em;
+}
+body.book-detail #content {
+    margin-left: 10%;
+}
+
+#controls {
+    margin-bottom: 1em;
+}
+#controls a, #controls span {
+    line-height: 20px;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#controls a.btn {
+    border-width: 1px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.page-control, #controls span {
+    float: left;
+    margin-right: 0.5em;
+}
+.userinfo {
+    float: right;
+    margin-left: 0.5em;
+}
+
+.manuals-list {
+    float: left;
+}
+#footer-text {
+    margin-top: 1em;
+}
+
+#book-content {
+    margin-top: 2em;
+}
+.highlighted {
+    background-color: yellow;
+}
+#chapter-content iframe {
+    width: 100%;
+    height: 100%;
+}
+#toc {
+    padding-right: 0;
+}
+#toc .chapter-link.selected a {
+    color: white;
+    background-color: #337ab7;
+}
+.toc-list {
+    padding: 0px;
+}
+.toc-list li.section-title {
+    list-style-type: none;
+}
+.toc-list li.chapter-link {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+#last-updated {
+    color: #555;
+    font-size: 0.9em;
+}
+
+ul.errorlist {
+    color: red;
+    list-style-type: none;
+    padding: 0px;
+}
+
+/* Hide keywords controls as out of scope for now. */
+label[for=id_keywords], #id_keywords, #id_keywords + span, p.keywords {
+    display: none;
+}
