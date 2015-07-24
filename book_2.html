@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="A book community creating books of Free Culture and Free Software. ">
+  <meta name="author" content="Elisa de Castro Guerra">
+  <meta name="author" content="Cédric Gémy">
+  <meta name="author" content="FLOSS Manuals English">
+  <link xmlns:xh="http://www.w3.org/1999/xhtml/vocab#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rel="xh:icon xh:icon icon" href="http://yemanjalisa.fr/itpro/fmfr/img/favicon.ico">
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script "text/javascript" >
+   $(document).ready(function() {
+    $('.dropdown-toggle').dropdown();
+   });
+
+$(document).ready(function() {
+  $('[data-toggle=offcanvas]').click(function() {
+    $('.row-offcanvas').toggleClass('active');
+  });
+});
+</script>
+  <title>FM - Icecast | ch001_introduction.xhtml </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font awesome CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+   <!-- Custom -->
+  <script src="book_2_files/fm.js"></script>
+
+
+
+  <link rel="stylesheet" type="text/css" href="book_2_files/fmen.css">
+   <!--
+
+  <link rel="stylesheet" type="text/css" href="book_2_files/style.css">
+  <link rel="stylesheet" type="text/css" href="book_2_files/fmfr.css">
+
+  -->
+  
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+ </head>
+
+ <body class="book-detail"  >
+  <div class="page-container">
+   <!-- top navbar -->
+   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">FLOSS Manuals</a>
+     </div>
+    </div>
+   </div>
+
+   <div class="container">
+    <div class="row row-offcanvas row-offcanvas-left">
+
+     <!-- sidebar -->
+     <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+      <h2>Icecast</h2>
+
+      <p>
+       Download as: <a href="http://127.0.0.1:8000/static/icecast/icecast.book.pdf">book.pdf</a> | <a href="http://127.0.0.1:8000/static/icecast/icecast.web.pdf">web.pdf</a> | <a href="http://127.0.0.1:8000/static/icecast/icecast.epub">epub</a>
+      </p>
+      <ul class="toc-list nav">
+       <li class="section-title">
+        INTRODUCTION
+       </li>
+       <li class="chapter-link selected">
+        <a href="http://127.0.0.1:8000/reading_room/books/view/icecast/ch001_introduction/">INTRODUCTION</a>
+       </li>
+       <li class="chapter-link">
+        <a href="http://127.0.0.1:8000/reading_room/books/view/icecast/ch002_what-is-streaming/">WHAT IS STREAMING?</a>
+       </li>
+       <li class="section-title">
+        INSTALLING
+       </li>
+       <li class="chapter-link">
+        <a href="http://127.0.0.1:8000/reading_room/books/view/icecast/ch004_windows/">WINDOWS</a>
+       </li>
+       <li class="chapter-link">
+        <a href="http://127.0.0.1:8000/reading_room/books/view/icecast/ch005_linux-source/">LINUX (SOURCE)</a>
+       </li>
+       <li class="chapter-link">
+        <a href="http://127.0.0.1:8000/reading_room/books/view/icecast/ch006_linux-debian-or-ubuntu/">LINUX (DEBIAN or UBUNTU)</a>
+       </li>
+       <li class="section-title">
+        GETTING STARTED
+       </li>
+       <li class="chapter-link">
+        <a href="http://127.0.0.1:8000/reading_room/books/view/icecast/ch008_starting-windows/">STARTING (WINDOWS)</a>
+       </li>
+       <li class="chapter-link">
+        <a href="http://127.0.0.1:8000/reading_room/books/view/icecast/ch009_logs-linux/">LOGS (LINUX)</a>
+       </li>
+       <li class="chapter-link">
+        <a href="http://127.0.0.1:8000/reading_room/books/view/icecast/ch010_starting-linux/">STARTING (LINUX)</a>
+       </li>
+      </ul>
+
+      <p id="last-updated">
+       Last updated 14-Jul-2015
+      </p>
+     </div>
+
+     <!-- main area -->
+     <div class="col-xs-12 col-sm-9">
+
+      <h1> Icecast </h1>
+      <p>
+       <img width="350" height="225" alt="icecast_cover_5.gif" src="book_2_files/ch001_introduction_data/Icecast-icecast_cover_5-en.gif" />
+       <br />
+      </p>
+      <p>
+       In the world of online audio and video there is a group of technologies and techniques refered to as
+       <strong> streaming </strong>
+       . Streaming, at its simplest, is the delivery of audio and video over the internet in
+       <strong> realtime </strong>
+       . Traditionally streaming has been used for delivering live internet
+       radio, or for broadcasting events over the internet so you can watch
+       them at home.
+      </p>
+      <p>
+       Streaming is often talked about using terms from the broadcasting
+       industry as live internet audio and video are often seen as being
+       analogous to broadcast television and radio. Hence you might talk about
+       'internet radio' to refer to live online audio. Sometimes people refer
+       to sending live audio or video using streaming as 'broadcasting on the
+       net' or as a 'internet broadcast'. These terms are helpful for helping
+       us understand the intended purpose of streaming but don't take them too
+       literally. However it is useful to refer to these models when explaining
+       the role of Icecast.
+      </p>
+      <p>
+       With broadcast television or radio there is transmitter that
+       distributes the signal sent from the studio, to your television or
+       radio.
+      </p>
+      <p>
+       <img width="350" height="225" alt="radio.gif" src="book_2_files/ch001_introduction_data/Streaming-StreamingIntro-radio-en.gif" />
+       <br />
+      </p>
+      <p>
+       With internet broadcasting (streaming) you replace the transmitter with a
+       <strong> streaming server </strong>
+       , which is really a kind of software.
+       <br />
+      </p>
+      <p>
+       <img width="350" height="225" alt="transmit_server.gif" src="book_2_files/ch001_introduction_data/Streaming-StreamingIntro-transmit_server-en.gif" />
+      </p>
+      <p>
+       <strong> Icecast </strong>
+       is this kind of software. It enables you to distribute live audio and video across the internet in realtime.
+       <span> </span>
+       Note that this is only part of the equation. You also need a
+       <strong> stream encoder </strong>
+       that can send the original audio or video stream to Icecast. Icecast
+       distributes the stream, it does not create the stream - that's the job
+       of the encoder.
+      </p>
+      <p>
+       Icecast is a very mature technology and very robust. It supports the
+       delivery of many different formats of streaming audio (including MP3 and
+       Ogg Vorbis) and it supports the delivery of Ogg Theora for streaming
+       video. Icecast runs on
+       <strong> Linux </strong>
+       and
+       <strong> Windows </strong>
+       . If you wish to install it on Linux you will need to have some
+       experience with Linux; specifically you will need to know a bit about
+       how to install software from the command line, and be comfortable
+       editing text based configuration files. The Windows installation process
+       is a little bit more straight forward but you still need to be
+       comfortable editing text based configuration files.
+      </p>
+      <p>
+       Installing and running Icecast is not recommended for inexperienced users.
+       <br />
+      </p>
+     </div>
+    </div>
+   </div>
+   
+   <div id="footer" class="navbar navbar-inner navbar-fixed-bottom">
+    <div class="container-fluid">
+     <p class="text-muted">
+      Footer
+     </p>
+
+    </div>
+   </div>
+  </div>
+
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="book_2_files/ie10-viewport-bug-workaround.html"></script>
+
+ </body>
+</html>
